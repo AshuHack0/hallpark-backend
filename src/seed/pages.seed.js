@@ -70,6 +70,31 @@ const defaultHomeSlides = [
   },
 ];
 
+const defaultJobPosts = [
+  {
+    title: "Senior Valet Supervisor",
+    department: "Operations",
+    location: "Dubai, UAE",
+    employmentType: "Full-Time",
+    description:
+      "Lead our valet team at premium locations across Dubai. Oversee daily operations, train new team members, and ensure exceptional customer service standards.",
+    applyLabel: "Apply Now",
+    applyMode: "form",
+    applyLink: "",
+  },
+  {
+    title: "CRM & Operations Specialist",
+    department: "Customer Operations",
+    location: "Dubai, UAE",
+    employmentType: "Full-Time",
+    description:
+      "Support our CRM and operations team by managing bookings, resolving customer inquiries, and coordinating daily workflows across all HalaPark platforms.",
+    applyLabel: "Apply Now",
+    applyMode: "form",
+    applyLink: "",
+  },
+];
+
 const defaultCareersSections = {
   hero: {
     title: "Park Your Career in the Right Place",
@@ -107,6 +132,11 @@ const defaultCareersSections = {
       badge: "Corporate",
     },
   ],
+  openPositions: {
+    title: "Open Positions",
+    subtitle: "Explore our current job openings and apply today",
+    posts: defaultJobPosts,
+  },
   whyJoin: {
     title: "Why Join Us?",
     subtitle: "Because Great Careers Need More Than Just a Job",
@@ -277,6 +307,20 @@ export async function seedPages() {
     // Backfill careers content only when the document exists but has empty/generic sections.
     if (isCareers && !hasCareersContent) {
       await Page.updateOne({ slug: page.slug }, { $set: { sections: defaultCareersSections } });
+    } else if (isCareers && !existing.sections?.openPositions) {
+      await Page.updateOne(
+        { slug: page.slug },
+        { $set: { "sections.openPositions": defaultCareersSections.openPositions } },
+      );
+    } else if (
+      isCareers &&
+      Array.isArray(existing.sections?.openPositions?.posts) &&
+      existing.sections.openPositions.posts.length === 0
+    ) {
+      await Page.updateOne(
+        { slug: page.slug },
+        { $set: { "sections.openPositions.posts": defaultJobPosts } },
+      );
     }
 
     if (isAbout && !hasAboutContent) {

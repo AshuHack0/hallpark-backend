@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { Quote } from "../models/Quote.js";
+import { JobApplication } from "../models/JobApplication.js";
 
 const quoteSchema = z.object({
   fullName: z.string().min(1),
@@ -39,11 +40,13 @@ export async function listQuotes(_req, res, next) {
 
 export async function getStats(_req, res, next) {
   try {
-    const [quotesTotal, quotesNew] = await Promise.all([
+    const [quotesTotal, quotesNew, jobApplicationsTotal, jobApplicationsNew] = await Promise.all([
       Quote.countDocuments(),
       Quote.countDocuments({ status: "new" }),
+      JobApplication.countDocuments(),
+      JobApplication.countDocuments({ status: "new" }),
     ]);
-    res.json({ quotesTotal, quotesNew });
+    res.json({ quotesTotal, quotesNew, jobApplicationsTotal, jobApplicationsNew });
   } catch (err) {
     next(err);
   }
