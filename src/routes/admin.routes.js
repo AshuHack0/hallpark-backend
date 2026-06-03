@@ -6,6 +6,7 @@ import {
 } from "../controllers/pages.controller.js";
 import { getStats, listQuotes } from "../controllers/quotes.controller.js";
 import { listJobApplications } from "../controllers/jobApplications.controller.js";
+import { getUploadSignature } from "../controllers/uploads.controller.js";
 import { authRequired } from "../middleware/auth.js";
 
 const router = Router();
@@ -18,5 +19,6 @@ router.get("/pages/:slug", getPageAdmin);
 router.put("/pages/:slug", updatePageAdmin);
 router.get("/quotes", listQuotes);
 router.get("/job-applications", listJobApplications);
+router.post("/uploads/signature", getUploadSignature);
 
 export default router;
