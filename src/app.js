@@ -9,6 +9,7 @@ import authRoutes from "./routes/auth.routes.js";
 import pagesRoutes from "./routes/pages.routes.js";
 import quotesRoutes from "./routes/quotes.routes.js";
 import jobApplicationsRoutes from "./routes/jobApplications.routes.js";
+import contactRoutes from "./routes/contact.routes.js";
 import adminRoutes from "./routes/admin.routes.js";
 
 export function createApp() {
@@ -38,6 +39,7 @@ export function createApp() {
   app.use("/api/pages", pagesRoutes);
   app.use("/api/quotes", quotesRoutes);
   app.use("/api/job-applications", jobApplicationsRoutes);
+  app.use("/api/contact", contactRoutes);
   app.use("/api/admin", adminRoutes);
 
   app.use(notFoundHandler);

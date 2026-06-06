@@ -5,8 +5,19 @@ import {
   updatePageAdmin,
 } from "../controllers/pages.controller.js";
 import { getStats, listQuotes } from "../controllers/quotes.controller.js";
-import { listJobApplications } from "../controllers/jobApplications.controller.js";
+import {
+  listJobApplications,
+  getJobApplication,
+  updateJobApplicationStatus,
+  deleteJobApplication,
+} from "../controllers/jobApplications.controller.js";
 import { getUploadSignature } from "../controllers/uploads.controller.js";
+import {
+  listContacts,
+  getContact,
+  updateContactStatus,
+  deleteContact,
+} from "../controllers/contact.controller.js";
 import { authRequired } from "../middleware/auth.js";
 
 const router = Router();
@@ -19,6 +30,14 @@ router.get("/pages/:slug", getPageAdmin);
 router.put("/pages/:slug", updatePageAdmin);
 router.get("/quotes", listQuotes);
 router.get("/job-applications", listJobApplications);
+router.get("/job-applications/:id", getJobApplication);
+router.patch("/job-applications/:id/status", updateJobApplicationStatus);
+router.delete("/job-applications/:id", deleteJobApplication);
 router.post("/uploads/signature", getUploadSignature);
+
+router.get("/contacts", listContacts);
+router.get("/contacts/:id", getContact);
+router.patch("/contacts/:id/status", updateContactStatus);
+router.delete("/contacts/:id", deleteContact);
 
 export default router;

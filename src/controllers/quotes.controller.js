@@ -1,25 +1,34 @@
 import { z } from "zod";
 import { Quote } from "../models/Quote.js";
 import { JobApplication } from "../models/JobApplication.js";
+import { Contact } from "../models/Contact.js";
+
+// Optional string fields may arrive as "" — coerce to undefined so Mongoose
+// stores them as absent rather than empty strings.
+const optionalStr = z
+  .string()
+  .optional()
+  .or(z.literal(""))
+  .transform((v) => (v === "" ? undefined : v));
 
 const quoteSchema = z.object({
-  fullName: z.string().min(1),
-  email: z.string().email(),
-  phone: z.string().min(1),
-  service: z.string().min(1),
-  tower: z.string().optional(),
-  slots: z.union([z.string(), z.number()]).optional(),
-  message: z.string().optional(),
-  source: z.string().optional(),
+  fullName: z.string().trim().min(1),
+  email: z.string().trim().email(),
+  phone: z.string().trim().min(1),
+  service: z.string().trim().min(1),
+  tower: optionalStr,
+  slots: z
+    .union([z.string(), z.number()])
+    .optional()
+    .transform((v) => (v === "" || v === undefined || v === null ? undefined : String(v))),
+  message: optionalStr,
+  source: optionalStr,
 });
 
 export async function createQuote(req, res, next) {
   try {
     const data = quoteSchema.parse(req.body);
-    const quote = await Quote.create({
-      ...data,
-      slots: data.slots !== undefined ? String(data.slots) : undefined,
-    });
+    const quote = await Quote.create(data);
     res.status(201).json({ ok: true, quote });
   } catch (err) {
     if (err instanceof z.ZodError) {
@@ -40,13 +49,23 @@ export async function listQuotes(_req, res, next) {
 
 export async function getStats(_req, res, next) {
   try {
-    const [quotesTotal, quotesNew, jobApplicationsTotal, jobApplicationsNew] = await Promise.all([
+    const [
+      quotesTotal, quotesNew,
+      jobApplicationsTotal, jobApplicationsNew,
+      contactsTotal, contactsNew,
+    ] = await Promise.all([
       Quote.countDocuments(),
       Quote.countDocuments({ status: "new" }),
       JobApplication.countDocuments(),
       JobApplication.countDocuments({ status: "new" }),
+      Contact.countDocuments(),
+      Contact.countDocuments({ status: "new" }),
     ]);
-    res.json({ quotesTotal, quotesNew, jobApplicationsTotal, jobApplicationsNew });
+    res.json({
+      quotesTotal, quotesNew,
+      jobApplicationsTotal, jobApplicationsNew,
+      contactsTotal, contactsNew,
+    });
   } catch (err) {
     next(err);
   }
