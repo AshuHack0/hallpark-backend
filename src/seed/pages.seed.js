@@ -70,6 +70,247 @@ const defaultHomeSlides = [
   },
 ];
 
+const defaultHomeSections = {
+  hero: {
+    slides: defaultHomeSlides,
+  },
+  whoWeAre: {
+    eyebrow: "WHO WE ARE",
+    businessTab: {
+      title: "For Businesses & Property Owners",
+      body: "Unlock the full potential of your parking infrastructure with HalaPark's comprehensive suite of intelligent parking management solutions.",
+    },
+    usersTab: {
+      title: "For Users & Drivers",
+      body: "Experience hassle-free parking with HalaPark's smart, user-centric solutions designed to simplify your journey and save you time.",
+    },
+  },
+  whyHalapark: {
+    title: "Why HalaPark",
+    subtitle: "What Makes Us Different",
+    items: [
+      {
+        title: "AI-Powered Intelligence",
+        description: "Smart automation that learns and adapts to deliver the best parking experience.",
+        icon: "Zap",
+      },
+      {
+        title: "End-to-End Solutions",
+        description: "From mobile apps to backend operations, we handle every aspect of modern parking.",
+        icon: "Package",
+      },
+      {
+        title: "Real-Time Operations",
+        description: "Live tracking, instant updates, and immediate insights to optimize your parking ecosystem.",
+        icon: "Activity",
+      },
+      {
+        title: "Scalable Infrastructure",
+        description: "Built to grow with your business, from single properties to enterprise networks.",
+        icon: "TrendingUp",
+      },
+      {
+        title: "User-Centric Design",
+        description: "Intuitive interfaces and seamless experiences that customers love.",
+        icon: "Users",
+      },
+      {
+        title: "Security & Compliance",
+        description: "Enterprise-grade security with full compliance for financial and operational data.",
+        icon: "Lock",
+      },
+    ],
+  },
+  aiPoweredParkingService: {
+    cards: [
+      {
+        title: "For User",
+        ctaLabel: "View for Customer",
+        audienceTag: "APP EXPERIENCE",
+        description: "Intelligent automation helps you find and access available parking faster, reducing wait time and making every journey smooth and stress-free.",
+        href: "/app",
+        imageSrc: "/ForCustomers.png",
+        imageAlt: "Parking service for customers",
+        backgroundColor: "#ffffff",
+      },
+      {
+        title: "For Businesses /\nProperty owners",
+        ctaLabel: "View for Business",
+        audienceTag: "BUSINESS SUITE",
+        description: "Advanced automation streamlines parking management, improves space utilization, and delivers real-time insights to increase efficiency and revenue.",
+        href: "/business",
+        imageSrc: "/ForEnterprises.png",
+        imageAlt: "Parking service for businesses and property owners",
+        backgroundColor: "#ffffff",
+      },
+    ],
+  },
+  howItWorksDemoSection: {
+    title: "How It Works",
+    subtitle: "The Power of Smart Parking",
+    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    steps: [
+      {
+        title: "Find",
+        description: "Discover available parking spaces in real-time using our smart platform.",
+      },
+      {
+        title: "Book",
+        description: "Reserve your spot instantly with just a few taps on your phone.",
+      },
+      {
+        title: "Park",
+        description: "Enjoy seamless access and hassle-free parking from start to finish.",
+      },
+    ],
+    ctaLabel: "Explore More",
+    ctaHref: "/services",
+  },
+  blackBanner: {
+    title: "Ready to Transform Your Parking?",
+    description: "Join thousands of users and businesses already experiencing smarter parking with HalaPark.",
+    ctas: [
+      {
+        label: "Get Started",
+        href: "/contact",
+      },
+      {
+        label: "View Solutions",
+        href: "/services",
+      },
+    ],
+  },
+  goodLookingServicesSection: {
+    integrations: [
+      {
+        name: "Self-Parking",
+        backgroundColor: "#0088FF",
+        imagePath: "/selfParking.jpeg",
+      },
+      {
+        name: "Valet Service",
+        backgroundColor: "#00D084",
+        imagePath: "/valets.jpeg",
+      },
+      {
+        name: "EV Charging",
+        backgroundColor: "#FF6B35",
+        imagePath: "/Electric Vehicle Charging.jpeg",
+      },
+      {
+        name: "VIP Parking",
+        backgroundColor: "#9D4EDD",
+        imagePath: "/VIP Parking.jpeg",
+      },
+      {
+        name: "Fleet Solutions",
+        backgroundColor: "#3A86FF",
+        imagePath: "/Fleet Parking Solutions .jpeg",
+      },
+      {
+        name: "Barrier-Free",
+        backgroundColor: "#FB5607",
+        imagePath: "/Barrier-Free Parking.jpeg",
+      },
+    ],
+  },
+  solutionIntegration: {
+    title: "Integrated Solutions",
+    subtitle: "Everything You Need",
+    cards: [
+      {
+        title: "Mobile Platform",
+        description: "User-friendly apps and interfaces for drivers and operators.",
+      },
+      {
+        title: "Smart Infrastructure",
+        description: "Advanced technology for automated access and operations.",
+      },
+      {
+        title: "Real-Time Analytics",
+        description: "Data-driven insights to optimize parking operations.",
+      },
+      {
+        title: "Secure Payments",
+        description: "Seamless, secure transactions for all users.",
+      },
+      {
+        title: "Integration APIs",
+        description: "Connect with your existing systems and workflows.",
+      },
+      {
+        title: "24/7 Support",
+        description: "Dedicated support team always ready to help.",
+      },
+    ],
+  },
+  technologySection: {
+    title: "Technology",
+    subtitle: "Built for the Future",
+  },
+  clientsPartners: {
+    heading: "Trusted by Leading Brands",
+    logoPlaceholders: Array(8).fill({ name: "Partner Logo" }),
+  },
+  globalMobilityNetworkSection: {
+    title: "Global Mobility Network",
+    subtitle: "Connecting Smart Parking Worldwide",
+    capabilities: [
+      {
+        icon: "Globe",
+        title: "Worldwide Coverage",
+        description: "Operating across multiple regions and countries.",
+      },
+      {
+        icon: "Zap",
+        title: "Real-Time Intelligence",
+        description: "Connected systems delivering instant insights.",
+      },
+      {
+        icon: "Shield",
+        title: "Enterprise Security",
+        description: "Bank-level security for all operations.",
+      },
+    ],
+    stats: [
+      {
+        number: "50+",
+        label: "Parking Locations",
+      },
+      {
+        number: "100K+",
+        label: "Active Users",
+      },
+      {
+        number: "99.9%",
+        label: "Uptime",
+      },
+      {
+        number: "24/7",
+        label: "Support Available",
+      },
+    ],
+  },
+  halaParkInAction: {
+    title: "HalaPark In Action",
+    subtitle: "See It Live",
+    storeLinks: [
+      {
+        name: "Apple App Store",
+        url: "https://apps.apple.com/us/app/halapark-all-about-parking/id1590800416",
+      },
+      {
+        name: "Google Play Store",
+        url: "https://play.google.com/store/apps/details?id=com.app.halapark&pli=1",
+      },
+      {
+        name: "Web Platform",
+        url: "https://halapark.com",
+      },
+    ],
+  },
+};
+
 const defaultJobPosts = [
   {
     title: "Senior Valet Supervisor",
@@ -161,6 +402,42 @@ const defaultCareersSections = {
     primaryCtaLink: "/contact",
     secondaryCtaText: "View Open Positions",
     secondaryCtaLink: "#open-positions",
+  },
+};
+
+const defaultAppSections = {
+  hero: {
+    eyebrow: "APP",
+    title: "Download HalaPark",
+    subtitle: "Smart parking at your fingertips",
+    description: "Find, book, and manage parking spaces with the HalaPark mobile app.",
+    image: "/hf_20260327_061900_db12a62e-2867-44b6-83f0-ea7f1a5442ef.png",
+  },
+  platform: {
+    title: "Seamless Mobile Experience",
+    description: "Everything you need to manage parking on the go",
+  },
+  features: {
+    title: "Powerful Features",
+    description: "Real-time availability, instant bookings, secure payments",
+  },
+};
+
+const defaultBusinessSections = {
+  hero: {
+    eyebrow: "BUSINESS",
+    title: "For Business & Property Owners",
+    subtitle: "Transform your parking infrastructure",
+    description: "Intelligent parking solutions designed for your business growth.",
+    image: "/hf_20260327_061900_db12a62e-2867-44b6-83f0-ea7f1a5442ef.png",
+  },
+  solutions: {
+    title: "Business Solutions",
+    description: "Tailored parking management for every business type",
+  },
+  whyChoose: {
+    title: "Why Choose HalaPark",
+    description: "Increase revenue, reduce costs, improve customer experience",
   },
 };
 
@@ -830,7 +1107,15 @@ export const defaultFaqSections = {
 
 function defaultSections(slug) {
   if (slug === "home") {
-    return { hero: { slides: defaultHomeSlides } };
+    return defaultHomeSections;
+  }
+
+  if (slug === "app") {
+    return defaultAppSections;
+  }
+
+  if (slug === "business") {
+    return defaultBusinessSections;
   }
 
   if (slug === "careers") {
