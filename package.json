@@ -11,6 +11,7 @@
     "seed:pages": "node src/seed/pages.force.js",
     "seed:services": "node src/seed/services.force.js",
     "seed:solutions": "node src/seed/solutions.force.js",
+    "seed:solution-details": "node src/seed/solution-details.force.js",
     "seed:business": "node src/seed/business.force.js",
     "lint": "eslint src"
   },
