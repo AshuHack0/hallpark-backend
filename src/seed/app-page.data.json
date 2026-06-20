@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "eyebrow": "",
+    "title": "Find Parking in Seconds Across UAE",
+    "subtitle": "",
+    "description": "Find nearby parking, reserve instantly, and pay cashless, all in one seamless app experience.",
+    "image": "/j3.png"
+  },
+  "platform": {
+    "title": "Your parking, in\nyour hands.",
+    "subtitle": "Smarter parking,\nright from your browser.",
+    "description": "",
+    "appFeatures": [
+      { "title": "Manage with ease", "description": "Access your account and manage your parking anytime, anywhere." },
+      { "title": "Track in real time", "description": "View your parking sessions and history in real time." },
+      { "title": "Go cashless", "description": "Enjoy fast, secure payments with a seamless experience." }
+    ],
+    "websiteFeatures": [
+      { "title": "Simple & intuitive", "description": "A clean, smooth experience designed for quick access and easy navigation." },
+      { "title": "Stay in control", "description": "Manage your account, view activity, and monitor your parking in one place." },
+      { "title": "Secure & reliable", "description": "Your information is protected with enterprise-grade security." }
+    ]
+  },
+  "serviceTabs": {
+    "tabs": [
+      { "key": "public", "label": "Public Parking", "description": "Drivers can discover nearby public parking, secure a slot, and complete payment without leaving the app.", "steps": ["Search", "Book", "Pay"] },
+      { "key": "private", "label": "Private Parking", "description": "Property owners can publish bays, control availability, and turn unused inventory into steady revenue.", "steps": ["List", "Manage", "Earn"] },
+      { "key": "valet", "label": "Valet", "description": "Users request valet, track vehicle handoff status, and trigger retrieval at exactly the right time.", "steps": ["Request", "Track", "Retrieve"] },
+      { "key": "ev", "label": "EV Charging", "description": "EV drivers can find charging-ready spots, begin a session, and settle the payment flow in one place.", "steps": ["Locate", "Charge", "Pay"] }
+    ]
+  },
+  "screenshots": [
+    { "title": "Find nearby parking in seconds", "description": "Start from a clean home view that surfaces nearby zones, live pricing, and the quickest route to an available bay.", "image": "/Booking.png" },
+    { "title": "Scan the map before you drive in", "description": "Drivers can compare availability, spot types, and tower locations without bouncing between multiple parking apps.", "image": "/Map.png" },
+    { "title": "Reserve the right bay with clarity", "description": "The booking flow keeps timing, bay details, and vehicle information in one focused screen so the decision feels effortless.", "image": "/Home (1).png" },
+    { "title": "Complete payment without friction", "description": "A fast payment experience keeps pricing, duration, and confirmations visible while still feeling premium and calm.", "image": "/Payment.png" },
+    { "title": "Keep every session and receipt organised", "description": "Past bookings, transaction details, and proof of payment stay easy to revisit whenever users need them again.", "image": "/recipt.png" }
+  ],
+  "currency": {
+    "title": "Pay Instantly. Park Effortlessly. Stay in Control.",
+    "subtitle": "Smart Parking Flow",
+    "description": "Fast, cashless parking across the UAE with wallet, Apple Pay, and card options.",
+    "cardFeatures": [
+      { "title": "Top Up", "subtitle": "your wallet" },
+      { "title": "Book & Pay", "subtitle": "in seconds" },
+      { "title": "Track", "subtitle": "in real-time" }
+    ]
+  },
+  "featureCards": [
+    { "title": "Real-Time\nParking Rates", "description": "Always get the most accurate rates when booking across supported parking zones.", "preview": "rates" },
+    { "title": "Low Booking\nFees", "description": "Transparent pricing with no hidden charges - what you see is what you pay.", "preview": "summary" },
+    { "title": "Seamless\nCity Transactions", "description": "Reserve, extend, and pay effortlessly for your parking sessions in one smooth flow.", "preview": "payment" }
+  ],
+  "halapark": {
+    "title": "Next-Gen Parking at Your Fingertips",
+    "subtitle": "Find, book, and manage parking easily from your phone. Get real-time availability, quick booking, and a smooth, hassle-free experience anytime, anywhere.",
+    "storeLinks": [
+      { "icon": "/image--04.png", "alt": "App Store", "eyebrow": "Download Now On", "label": "App Store" },
+      { "icon": "/image 4.png", "alt": "Play Store", "eyebrow": "Download Now On", "label": "Play Store" },
+      { "icon": "/channels4_profile.jpg", "alt": "Huawei AppGallery", "eyebrow": "Download Now On", "label": "Huawei" }
+    ]
+  }
+}
