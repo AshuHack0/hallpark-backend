@@ -1,0 +1,47 @@
+{
+  "solutionsHeader": {
+    "heading": "Our Business",
+    "headingAccent": "Solutions",
+    "description": "Intelligent parking systems built for every business type, from single sites to large-scale multi-location operations.",
+    "description2": "We make it possible to invest in parking infrastructure with simple, transparent and comprehensive protection."
+  },
+  "valueProps": {
+    "eyebrow": "How It Works",
+    "heading": "Why Businesses Choose HalaPark",
+    "description": "Built for modern parking operations, HalaPark helps businesses increase revenue, simplify management, and deliver a smoother experience for every driver.",
+    "items": [
+      { "title": "Revenue Generation", "description": "Stop leaving money on the table. Our platform maximises occupancy and automates payments 24/7." },
+      { "title": "Operational Control", "description": "One dashboard for access, reporting, and management across all your locations." },
+      { "title": "Full Support", "description": "From installation to daily ops, our team handles the technical side so you can focus on your business." }
+    ]
+  },
+  "whoItsFor": {
+    "heading": "Who It's For",
+    "description": "Designed for residential, commercial, retail, healthcare, and hospitality environments, HalaPark adapts to the needs of every property with smoother access, better control, and a more efficient parking experience.",
+    "items": [
+      { "title": "Residential Towers" },
+      { "title": "Commercial Properties" },
+      { "title": "Retail Centres" },
+      { "title": "Hospitals & Healthcare" },
+      { "title": "Corporate Campuses" },
+      { "title": "Hospitality & Hotels" }
+    ]
+  },
+  "howToGetStarted": {
+    "eyebrow": "How It Works",
+    "heading": "How to Get Started",
+    "description": "",
+    "steps": [
+      { "title": "Book a free consultation", "description": "" },
+      { "title": "We assess your site and design a custom setup", "description": "" },
+      { "title": "Installation and onboarding", "description": "" },
+      { "title": "Go live -- fully managed from day one", "description": "" }
+    ]
+  },
+  "ctaExtra": {
+    "heading": "Start a Smart Parking Business with",
+    "headingAccent": "No Upfront Investment",
+    "ctaLabel": "Book a Free Consultation",
+    "ctaLink": "/contact"
+  }
+}
