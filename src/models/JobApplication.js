@@ -10,6 +10,7 @@ const jobApplicationSchema = new mongoose.Schema(
     location: { type: String, trim: true },
     message: { type: String, trim: true },
     linkedIn: { type: String, trim: true },
+    resumeUrl: { type: String, trim: true },
     source: { type: String, trim: true, default: "careers" },
     status: { type: String, enum: ["new", "reviewed", "contacted", "closed"], default: "new" },
   },

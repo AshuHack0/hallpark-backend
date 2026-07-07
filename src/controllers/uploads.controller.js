@@ -39,3 +39,34 @@ export async function getUploadSignature(_req, res, next) {
     next(err);
   }
 }
+
+/**
+ * Public variant used by the careers "apply" form to upload a resume directly
+ * to Cloudinary. Scoped to a dedicated resumes folder; the signature only
+ * authorizes that folder, nothing else.
+ */
+export async function getResumeUploadSignature(_req, res, next) {
+  try {
+    if (!isCloudinaryConfigured()) {
+      return res.status(503).json({ error: "Uploads are not available right now." });
+    }
+
+    const timestamp = Math.round(Date.now() / 1000);
+    const folder = `${env.cloudinary.uploadFolder}/resumes`;
+
+    const signature = cloudinary.utils.api_sign_request(
+      { timestamp, folder },
+      env.cloudinary.apiSecret,
+    );
+
+    res.json({
+      cloudName: env.cloudinary.cloudName,
+      apiKey: env.cloudinary.apiKey,
+      timestamp,
+      folder,
+      signature,
+    });
+  } catch (err) {
+    next(err);
+  }
+}

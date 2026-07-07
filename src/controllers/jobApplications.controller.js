@@ -18,6 +18,7 @@ const jobApplicationSchema = z.object({
   location: optionalStr,
   message: optionalStr,
   linkedIn: optionalStr,
+  resumeUrl: optionalStr,
   source: optionalStr,
 });
 
