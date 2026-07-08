@@ -70,3 +70,34 @@ export async function getResumeUploadSignature(_req, res, next) {
     next(err);
   }
 }
+
+/**
+ * Public variant used by the Contact form to upload attachments (images or
+ * supporting documents) directly to Cloudinary. Scoped to a dedicated
+ * contact-attachments folder; the signature only authorizes that folder.
+ */
+export async function getContactUploadSignature(_req, res, next) {
+  try {
+    if (!isCloudinaryConfigured()) {
+      return res.status(503).json({ error: "Uploads are not available right now." });
+    }
+
+    const timestamp = Math.round(Date.now() / 1000);
+    const folder = `${env.cloudinary.uploadFolder}/contact-attachments`;
+
+    const signature = cloudinary.utils.api_sign_request(
+      { timestamp, folder },
+      env.cloudinary.apiSecret,
+    );
+
+    res.json({
+      cloudName: env.cloudinary.cloudName,
+      apiKey: env.cloudinary.apiKey,
+      timestamp,
+      folder,
+      signature,
+    });
+  } catch (err) {
+    next(err);
+  }
+}
