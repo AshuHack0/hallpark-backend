@@ -11,6 +11,12 @@ const optionalStr = z
   .or(z.literal(""))
   .transform((v) => (v === "" ? undefined : v));
 
+const attachmentSchema = z.object({
+  url: z.string().trim().url(),
+  name: z.string().trim().max(255).optional().or(z.literal("")).transform((v) => (v ? v : undefined)),
+  type: z.string().trim().max(120).optional().or(z.literal("")).transform((v) => (v ? v : undefined)),
+});
+
 const quoteSchema = z.object({
   fullName: z.string().trim().min(1),
   email: z.string().trim().email(),
@@ -22,6 +28,8 @@ const quoteSchema = z.object({
     .optional()
     .transform((v) => (v === "" || v === undefined || v === null ? undefined : String(v))),
   message: optionalStr,
+  // Optional attachments — at most 5, each already uploaded to Cloudinary.
+  attachments: z.array(attachmentSchema).max(5).optional().default([]),
   source: optionalStr,
 });
 

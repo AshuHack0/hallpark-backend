@@ -1,0 +1,1068 @@
+{
+  "hero": {
+    "title": "Testing",
+    "subtitle": "Testin",
+    "ctaLabel": "",
+    "videoUrl": "",
+    "titleAccent": "Tesgting",
+    "ar": {
+      "title": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+      "titleAccent": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة",
+      "subtitle": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس ",
+      "ctaLabel": "لوريم إيبسوم هو نص شكلي يُستخد"
+    },
+    "ctaLink": "",
+    "image": "",
+    "mediaType": "video"
+  },
+  "challenges": {
+    "heading": "this is challenge page ",
+    "headingGradient": "asdfasdfasf",
+    "subtitle": "",
+    "description": "",
+    "items": [],
+    "ctaLabel": "View App Features for testing",
+    "ctaLink": "/about",
+    "ar": {
+      "ctaLabel": "لوريم إيبسوم هو نص شكلي يُستخد",
+      "description": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.",
+      "subtitle": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس ",
+      "heading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+      "headingGradient": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة"
+    },
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783501176/halapark/faq-videos/yixvnvdd7najzcotta5o.webp"
+  },
+  "solutions": {
+    "heading": "Our",
+    "headingGradient": "Solutions for Heading",
+    "subtitle": "Intelligent parking systems built for efficiency, control, and scale dasdasd asdasdas dasdasdsad",
+    "cards": [
+      {
+        "slug": "soltuion-secton",
+        "title": "Soltuion card ",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation an",
+        "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782982558/halapark/faq-videos/wy2lukymldhveueaywer.webp",
+        "group": "Soltuoin1"
+      },
+      {
+        "slug": "soclution ",
+        "title": "solution pcard ",
+        "description": "Description",
+        "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783501494/halapark/faq-videos/t3mnnf6t1j3d12bol05y.jpg",
+        "group": "Soltuoin1"
+      }
+    ],
+    "advantages": {
+      "heading": "Testing the Advantages",
+      "items": []
+    },
+    "groups": [
+      "Soltuoin1"
+    ],
+    "ar": {
+      "groups": [],
+      "heading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+      "headingGradient": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة",
+      "subtitle": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس "
+    }
+  },
+  "integration": {
+    "heading": "Solution Integration twajbf",
+    "headingGradient": "Integration fsdfsdsdfdfs",
+    "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designe",
+    "cards": [
+      {
+        "title": "New Integration 1",
+        "description": "",
+        "points": [
+          "test1",
+          "test2",
+          "test3",
+          "test"
+        ],
+        "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782983386/halapark/faq-videos/nmelbo0srhijd2jsrl7l.webp",
+        "gradient": "from-[#0078E0]/85 via-[#0088FF]/60 to-[#0088FF]/20"
+      }
+    ],
+    "color": "#0088FF"
+  },
+  "trust": {
+    "heading": "Headfing the  Trust Section",
+    "headingGradient": "Trust Section Gradiant",
+    "subtitle": "Subtitle extends beyond parking into urban mobility infrastructure, supporting large-scale smart city development and city-wide optimization. HalaPark extends b",
+    "image": "",
+    "keyPoints": [
+      "asdfa",
+      "asdfa",
+      "asda",
+      "asdfas"
+    ],
+    "ar": {
+      "keyPoints": [
+        "aasd",
+        "a"
+      ]
+    }
+  },
+  "seamless": {
+    "heading": "Seamless",
+    "headingGradient": "Integrations",
+    "subtitle": "Seamlessly connect parking operations, security systems, and city infrastructure into one intelligent platform.",
+    "items": [
+      {
+        "title": "Parking Systems",
+        "icon": "ParkingCircle"
+      },
+      {
+        "title": "Security & Surveillance",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Payment Gateways",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "City Infrastructure",
+        "icon": "Building2"
+      }
+    ],
+    "ar": {
+      "heading": "تكامل",
+      "headingGradient": "سلس",
+      "subtitle": "ربط سلس بين عمليات الركن وأنظمة الأمن والبنية التحتية للمدينة في منصة ذكية واحدة."
+    }
+  },
+  "features": {
+    "heading": "Testing The Feature section",
+    "headingGradient": "Gradient Testing The Feature section",
+    "subtitle": "Subtitle Testing The Feature section Testing The Feature section Testing The Feature section Testing The Feature section Testing The Feature section Testing The",
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782983991/halapark/faq-videos/ykcf7kk98xts4cjvrbga.webp",
+    "industries": [
+      {
+        "icon": "Cctv",
+        "label": "New Environment1 for the management for the ",
+        "ar": {
+          "label": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، "
+        }
+      },
+      {
+        "icon": "Building2",
+        "label": "New Environment2 for the management for the section  New Environment4456 for the management for the section New Environm",
+        "ar": {
+          "label": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، "
+        }
+      },
+      {
+        "icon": "Shield",
+        "label": "New Environment3 for the management for the section ",
+        "ar": {
+          "label": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، "
+        }
+      },
+      {
+        "icon": "Building2",
+        "label": "New Environment22",
+        "ar": {
+          "label": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، "
+        }
+      },
+      {
+        "icon": "Building2",
+        "label": "New Environment4456 for the management for the section New Environment4456 for th",
+        "ar": {
+          "label": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، "
+        }
+      }
+    ],
+    "ar": {}
+  },
+  "deployment": {
+    "brand": "HalaPark",
+    "heading": "Testing Deployment",
+    "headingGradient": "Testing Deployment Gradient",
+    "subtitle": "Testing DeploymentTesting DeploymentTesting DeploymentTesting DeploymentTesting DeploymentTesting DeploymentTesting DeploymentTesting DeploymentTesting Deployme",
+    "steps": [
+      {
+        "step": "01 Steps",
+        "title": "New Step",
+        "description": "Testing the Details",
+        "ar": {
+          "description": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.",
+          "title": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك"
+        }
+      },
+      {
+        "step": "step2 ",
+        "title": "New Step",
+        "description": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.",
+        "ar": {
+          "title": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+          "description": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم."
+        }
+      }
+    ],
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782984270/halapark/faq-videos/xvokekjsvablygy1wxvp.webp",
+    "panelTitle": "Testing Side Panel",
+    "panelTitleAccent": "100 months",
+    "ar": {}
+  },
+  "why": {
+    "heading": "Why HalaPArk Section",
+    "headingGradient": "Why HalaPArk Gradient",
+    "points": [
+      "Point 1 Section Point 1 Section Point 1 Section Point 1 Section Point 1 Section a",
+      "Point 2 Section Point 2 Section Point 2 Section Point 2 Section Point 1 Section a"
+    ],
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782984637/halapark/faq-videos/uz6lw7epzqcfieilwaqx.webp",
+    "badge": "Pabnel HalaPArk Section daasWhy HalaPArk",
+    "panelTitle": "Why Caption Why HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk Section Section",
+    "panelTitleAccent": "Why HalaPArk Section Accent Why HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk SectionWhy HalaPArk"
+  },
+  "cta": {
+    "heading": "Testing CTa Section",
+    "headingGradient": "Testing CTa SectionTesting CTa SectionTe",
+    "subtitle": "Testing CTa SectionTesting CTa SectionTesting CTa SectionTesting CTa SectionTesting CTa SectionTesting CTa SectionTesting CTa SectionTesting CTa SectionTesting ",
+    "ctaLabel": "Request Demo",
+    "ctaSecondaryLabel": "Talk to Team",
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782984963/halapark/faq-videos/ui6chtpq7uloupniyqpf.webp",
+    "primaryLabel": "Request Demo",
+    "primaryLink": "/contact",
+    "secondaryLabel": "View Solutions",
+    "secondaryLink": "/solutions"
+  },
+  "details": [
+    {
+      "slug": "smart-ecosystem-integration",
+      "group": "Smart Parking Ecosystem",
+      "eyebrow": "Smart Ecosystem Integration",
+      "title": "Smart Ecosystem Integration",
+      "intro": "HalaPark integrates seamlessly with leading technology and security platforms such as Hikvision, HikCentral, Dahua, ISS, SSK, and other supported systems, creating a unified and intelligent parking ecosystem that connects security, operations, and digital services in real time.",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1781540956/halapark/faq-videos/roqqyqemrln8qhq8gzsu.jpg",
+      "systemComponentsHeading": "System Components",
+      "systemComponents": [
+        "Parking management platform",
+        "CCTV & security systems",
+        "Access control systems",
+        "Integration APIs"
+      ],
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Eliminates system fragmentation between parking and security",
+        "Enables centralized control of all surveillance and access points",
+        "Improves incident detection and response time",
+        "Enhances operational efficiency through unified monitoring",
+        "Supports scalable deployment across multiple locations"
+      ],
+      "problemHeading": "Problem We Face",
+      "problemBody": "Modern parking facilities often rely on multiple disconnected systems for security, surveillance, access control, and parking management. These fragmented platforms create operational inefficiencies, delayed incident response, limited visibility, and increased management complexity. Without a centralized ecosystem, operators struggle to monitor activities effectively, maintain security standards, and optimize overall facility performance.",
+      "ctaLabel": "Contact Us",
+      "ctaLink": "/contact",
+      "subtitle": "The Digital Backbone of Modern Parking Management",
+      "shortDescription": "Seamlessly connect parking operations, security systems, surveillance platforms, and access controls into one intelligent ecosystem.",
+      "whyHeading": "Why Smart Ecosystem Integration Matters?",
+      "whyBody": "HalaPark's Smart Ecosystem Integration creates a unified digital environment where parking management, security, surveillance, and access control systems work together seamlessly. By integrating leading technologies such as Hikvision, HikCentral, Dahua, ISS, SSK, and other compatible platforms, we eliminate operational silos and provide real-time visibility across your entire parking infrastructure.\n\nBuilt on a robust parking management platform supported by CCTV monitoring, access control systems, and flexible API integrations, our solution empowers operators with centralized control, enhanced security, and streamlined operations. Whether managing a single facility or multiple locations, HalaPark delivers a future-ready ecosystem designed for efficiency, scalability, and smarter decision-making.",
+      "solutionHeading": "Our Solution",
+      "solutionBody": "HalaPark addresses these challenges by integrating all critical parking and security technologies into one intelligent platform. Through seamless connectivity between surveillance systems, access control solutions, parking management software, and third-party integrations, operators gain a single source of truth for monitoring and managing their facilities. The result is enhanced security, improved operational efficiency, faster response times, and a smarter parking environment that adapts to evolving business needs.",
+      "keyBenefits": [
+        {
+          "title": "Unified Operations",
+          "description": "Manage parking, security, and access control from a single platform."
+        },
+        {
+          "title": "Enhanced Security",
+          "description": "Gain real-time visibility and faster incident detection across all facilities."
+        },
+        {
+          "title": "Operational Efficiency",
+          "description": "Reduce manual processes and streamline day-to-day management."
+        },
+        {
+          "title": "Scalable Growth",
+          "description": "Easily expand and integrate additional locations and technologies."
+        },
+        {
+          "title": "Data-Driven Decisions",
+          "description": "Access consolidated insights and analytics for better operational planning."
+        }
+      ],
+      "howItWorksHeading": "How It Works",
+      "howItWorksBody": "HalaPark connects your existing parking management, CCTV surveillance, access control, and security platforms through a centralized integration framework. Data from all connected systems is synchronized in real time, allowing operators to monitor activities, manage access, receive alerts, and respond to incidents from a single dashboard. This seamless flow of information creates a smarter, safer, and more efficient parking ecosystem that supports both current operational needs and future expansion.",
+      "steps": [],
+      "relatedHeading": "Other Related Services",
+      "relatedServices": [
+        "ai-powered-anpr-parking-management",
+        "monitoring-guidance-circulation-systems"
+      ],
+      "ar": {
+        "title": "تكامل المنظومة الذكية"
+      },
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "seamless-integrations",
+      "group": "Smart Parking Ecosystem",
+      "eyebrow": "Seamless Integrations",
+      "title": "End-to-End Connected Infrastructure for Smart Parking",
+      "intro": "HalaPark connects with existing infrastructure to create a unified operational ecosystem without disrupting current systems. It integrates multiple technologies into one intelligent platform for centralized control and real-time operations.",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1781600677/halapark/faq-videos/r60pehaoybck2cd6o6nx.png",
+      "systemComponentsHeading": "Integrated Systems",
+      "systemComponents": [
+        "Mobile App (iOS / Android)",
+        "Web Portal / Dashboard",
+        "ANPR / Area Scanning Cameras",
+        "eCam Security / Monitoring System",
+        "View 360 System & Processing Unit",
+        "QR / RFID / Mobile Access Devices",
+        "Network Switch (Connectivity Backbone)"
+      ],
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Unified control of all parking and building systems",
+        "Eliminates data silos and system fragmentation",
+        "Reduced operational complexity and manual effort",
+        "Scalable architecture for future technologies",
+        "Seamless integration with existing infrastructure"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Parking and facility systems are often disconnected, with separate platforms for payments, access control, CCTV, and building management. This creates operational inefficiencies, data silos, higher maintenance costs, and limited visibility. HalaPark unifies them into one connected platform.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "ai-powered-anpr-parking-management",
+      "group": "Smart Parking Ecosystem",
+      "eyebrow": "AI-Powered ANPR Parking Management",
+      "title": "AI-Powered ANPR Parking Management",
+      "intro": "HalaPark Automated Gate Access Control provides intelligent vehicle access management using ANPR technology, smart barriers, QR validation, and centralized monitoring.",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1781600939/halapark/faq-videos/olvynbjxatarodyyhp9p.jpg",
+      "howItOperates": "Vehicles are identified and validated automatically through AI cameras, QR codes, RFID systems, and integrated access rules — enabling seamless and secure gate operations.",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Ticketless Entry & Exit",
+        "Reduced Congestion at Gates",
+        "Real-Time Vehicle Monitoring",
+        "Touchless Customer Experience",
+        "Enhanced Security & Audit Trails"
+      ],
+      "problemHeading": "Problem We Face",
+      "problemBody": "Many parking facilities still rely on manual processes, access cards, paper tickets, or disconnected systems to manage vehicle entry and exit. These outdated methods often result in long queues, inaccurate records, security vulnerabilities, unauthorized parking, and inefficient resource utilization.\n\nWithout automated vehicle recognition and real-time monitoring, operators face challenges in enforcing parking policies, managing subscriptions, identifying violations, and maintaining a seamless parking experience. The lack of centralized vehicle intelligence can also impact revenue collection, customer satisfaction, and overall operational performance.",
+      "ctaLabel": "Contact Us",
+      "ctaLink": "/contact",
+      "subtitle": "Intelligent Vehicle Recognition for Seamless Parking Operations",
+      "shortDescription": "Automate vehicle access, parking enforcement, and operational monitoring using advanced AI-powered Automatic Number Plate Recognition (ANPR) technology.",
+      "whyHeading": "Why AI-Powered ANPR Parking Management Matters?",
+      "whyBody": "Modern parking facilities require fast, secure, and automated vehicle management to handle increasing traffic volumes while maintaining operational efficiency. Traditional ticket-based and manually monitored parking systems often lead to congestion, unauthorized access, revenue leakage, and increased operational costs.\n\nHalaPark's AI-Powered ANPR Parking Management solution utilizes advanced artificial intelligence and license plate recognition technology to automatically identify, authenticate, track, and manage vehicles throughout the parking journey. By eliminating manual intervention and enabling real-time vehicle monitoring, operators gain complete visibility, improved security, enhanced user experience, and greater operational control.\n\nDesigned for commercial buildings, mixed-use developments, airports, hospitals, hotels, residential communities, government facilities, and smart cities, the solution delivers a future-ready parking ecosystem that improves efficiency while maximizing revenue and compliance.",
+      "solutionHeading": "Our Solution",
+      "solutionBody": "HalaPark's AI-Powered ANPR Parking Management solution automatically captures and recognizes vehicle license plates at entry and exit points using intelligent cameras and AI-driven analytics. The system instantly validates authorized vehicles, calculates parking durations, manages access permissions, and records all vehicle movements in real time.\n\nIntegrated with parking management systems, barriers, payment gateways, surveillance platforms, and access control solutions, the platform creates a fully automated parking environment. Operators benefit from centralized management, enhanced security, automated enforcement, and accurate reporting while providing drivers with a frictionless and ticketless parking experience.\n\nThe solution can be deployed for both indoor and outdoor parking facilities and can scale across multiple locations through centralized cloud or enterprise management platforms.",
+      "keyBenefits": [
+        {
+          "title": "Touchless Vehicle Access",
+          "description": "Enable automatic vehicle entry and exit without tickets, access cards, or manual intervention."
+        },
+        {
+          "title": "Enhanced Security & Monitoring",
+          "description": "Track all vehicle movements in real time and identify unauthorized or suspicious activities instantly."
+        },
+        {
+          "title": "Improved Traffic Flow",
+          "description": "Reduce congestion and waiting times through faster vehicle processing and automated access control."
+        },
+        {
+          "title": "Increased Revenue Protection",
+          "description": "Eliminate revenue leakage with accurate vehicle tracking, automated billing, and parking enforcement."
+        },
+        {
+          "title": "Smart Analytics & Reporting",
+          "description": "Access real-time dashboards, vehicle statistics, occupancy data, and operational insights for better decision-making."
+        }
+      ],
+      "howItWorksHeading": "How It Works",
+      "howItWorksBody": "",
+      "steps": [
+        {
+          "title": "Vehicle Detection",
+          "description": "ANPR cameras automatically detect approaching vehicles at entry and exit points."
+        },
+        {
+          "title": "License Plate Recognition",
+          "description": "AI-powered algorithms capture and accurately recognize vehicle registration numbers."
+        },
+        {
+          "title": "Vehicle Verification",
+          "description": "The system validates the vehicle against authorized, subscription, visitor, blacklist, or whitelist databases."
+        },
+        {
+          "title": "Automated Access Control",
+          "description": "Approved vehicles receive automatic barrier access while unauthorized vehicles trigger alerts."
+        },
+        {
+          "title": "Parking Session Management",
+          "description": "Vehicle movements, parking duration, occupancy status, and transactions are recorded in real time."
+        },
+        {
+          "title": "Reporting & Analytics",
+          "description": "Operators access centralized dashboards, reports, alerts, and business intelligence tools for complete operational visibility."
+        }
+      ],
+      "relatedHeading": "Other Related Services",
+      "relatedServices": [
+        "smart-ecosystem-integration",
+        "monitoring-guidance-circulation-systems"
+      ],
+      "ar": {
+        "title": "إدارة المواقف بالتعرّف الذكي على اللوحات"
+      },
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "smart-mobility-payments-platform",
+      "group": "Digital Payments & User Experience",
+      "eyebrow": "Smart Mobility Payments Platform",
+      "title": "Flexible Payment Options for Every Parking Journey",
+      "intro": "Deliver seamless, cashless, and fully integrated parking payments through multiple channels designed for convenience, speed, and operational efficiency — Top Up Wallet, dynamic QR (Scan. Pay. Go.), and Smart POS for attendants and valet teams.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Instant balance reloads with a secure HalaPark wallet",
+        "Fast & secure digital payments",
+        "Smart QR code authentication with automated access & validation",
+        "No tickets, no waiting, no hassle",
+        "Smart POS: card & cash acceptance with digital receipt printing",
+        "Barrier control & live transaction monitoring"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Cash-based and fragmented payment channels slow down parking operations and frustrate users. HalaPark unifies wallet, QR, and POS payments into one fast, cashless, fully integrated platform.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "smart-slot-reservation",
+      "group": "Digital Payments & User Experience",
+      "eyebrow": "Smart Slot Reservation",
+      "title": "Your Parking Experience, Anytime, Anywhere",
+      "intro": "Everything parking, in one place. Fast access, seamless payments, and complete control from your smartphone.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Guaranteed parking availability",
+        "Parking reserved before arrival",
+        "Book anytime via mobile app",
+        "Instant booking confirmation"
+      ],
+      "problemHeading": "Problems We Solve",
+      "problemBody": "Searching for parking at peak hours, uncertainty about availability, long wait times and traffic congestion, and missed opportunities due to full parking facilities.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "parking-guidance-system",
+      "group": "Digital Payments & User Experience",
+      "eyebrow": "Parking Guidance System",
+      "title": "Real-Time Parking Navigation for Smarter Traffic Flow  ",
+      "intro": "HalaPark Parking Guidance System provides intelligent wayfinding and occupancy visibility to help drivers locate available parking quickly and efficiently.",
+      "image": "https://res.cloudinary.com/dybgt4ckm/image/upload/f_auto,q_auto/Core-Components_APGS_pn8d41",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Faster parking discovery for drivers",
+        "Reduced search time and fuel consumption",
+        "Improved vehicle flow and circulation",
+        "Reduced internal traffic congestion",
+        "Real-time occupancy visibility"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "HALAPARK provides a complete on-site parking guidance and communication system that enhances the entire parking experience through smart visual infrastructure.\nWe integrate LED signage boards, directional indicators, QR-based payment instructions, speed hump placement guidance, and clear price display boards to create a fully structured and easy-to-understand parking environment.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "subtitle": "Parking Guidance System",
+      "ar": {
+        "subtitle": "",
+        "keyBenefits": [
+          {},
+          {},
+          {},
+          {},
+          {
+            "description": ""
+          }
+        ]
+      },
+      "shortDescription": "HALAPARK transforms traditional parking facilities into structured, easy-to-navigate, and user-friendly environments using smart visual guidance systems and on-site communication tools.\nDesigned for malls, airports, hospitals, office complexes, and commercial buildings, HALAPARK improves parking flow, enhances safety, and delivers a smooth driver experience from entry to exit.",
+      "whyHeading": "Why Parking Guidance System Matters",
+      "whyBody": "Modern parking facilities often lack clear structure, leading to confusion, slow movement, and poor user experience. Drivers struggle with unclear entry/exit guidance, missing payment clarity, and inconsistent on-site information such as pricing or parking rules. This results in congestion, delays, and inefficient parking flow.\nWithout proper visual communication inside the facility, users often feel uncertain about directions, charges, and procedures, which reduces overall satisfaction and operational efficiency.",
+      "whyImage": "https://imgur.com/a/eNsFK8p",
+      "solutionBody": "HALAPARK provides a complete on-site parking guidance and communication system that enhances the entire parking experience through smart visual infrastructure.\nWe integrate LED signage boards, directional indicators, QR-based payment instructions, speed hump placement guidance, and clear price display boards to create a fully structured and easy-to-understand parking environment.",
+      "solutionHeading": "Our Solution",
+      "keyBenefits": [
+        {
+          "title": "🚗 Faster Parking",
+          "description": "Drivers are guided directly to available spaces, reducing search time and improving convenience."
+        },
+        {
+          "title": "📊 Real-Time Availability",
+          "description": "Instant visibility of open and occupied spaces improves decision-making and reduces confusion."
+        },
+        {
+          "title": "Reduced Congestion",
+          "description": "Smarter vehicle flow inside parking areas minimizes traffic buildup and delays."
+        },
+        {
+          "title": "Better Space Utilization",
+          "description": "Optimizes parking capacity by efficiently distributing vehicles across all available zones."
+        },
+        {
+          "title": "😊 Improved User Experience",
+          "description": "Creates a smooth, stress-free parking journey from entry to exit, increasing overall satisfaction."
+        }
+      ],
+      "howItWorksBody": "HALAPARK works through a network of smart visual guidance elements placed strategically throughout the parking facility. As vehicles enter, LED boards and directional signage guide drivers step-by-step through designated routes, reducing confusion and improving flow.\nPrice boards ensure clear communication of parking charges, while speed humps help maintain safe driving speeds within the facility. At the exit, QR code payment systems allow quick and seamless digital transactions.\nTogether, these elements create a smooth, structured journey from entry to exit.",
+      "howItWorksHeading": "How IT WORKS",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "parking-access-control-solutions",
+      "group": "Access & Enforcement Systems",
+      "eyebrow": "Parking Access Control Solutions",
+      "title": "Automated Parking Monitoring",
+      "intro": "Powered by eCam and View360, HalaPark helps prevent unauthorized parking through AI-powered monitoring and automated enforcement. The solution improves parking compliance, protects parking availability, and provides real-time visibility across parking areas.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Prevent unauthorized parking",
+        "Real-time monitoring and alerts",
+        "Automated violation detection",
+        "Better space utilization"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Unauthorized parking and manual enforcement create congestion, parking misuse, and inefficient operations. HalaPark uses AI-powered monitoring and automated enforcement to keep parking spaces available, secure, and efficiently managed.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "on-street-parking",
+      "group": "Access & Enforcement Systems",
+      "eyebrow": "On-Street Parking",
+      "title": "Smart Urban Parking for Modern Cities",
+      "intro": "HalaPark On-Street Parking transforms traditional roadside parking into a connected digital ecosystem powered by AI, automation, and real-time monitoring. Designed for municipalities, commercial districts, and smart city developments, the system improves traffic flow, streamlines enforcement, and delivers a seamless cashless parking experience.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Improves curbside parking efficiency and utilization",
+        "Enhances enforcement and compliance",
+        "Faster search time for available parking",
+        "Supports smart city and digital infrastructure initiatives",
+        "Better traffic flow in urban areas"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "On-street parking is often poorly managed, leading to illegal parking, traffic congestion, lack of available space visibility, and inefficient use of limited curbside areas. Manual enforcement and lack of real-time data make it difficult for cities to control demand and ensure smooth traffic flow.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "multi-location-parking-control-platform",
+      "group": "Access & Enforcement Systems",
+      "eyebrow": "Multi-Location Parking Control Platform",
+      "title": "Smart, Centralized Parking Management Across Multiple Sites",
+      "intro": "A unified parking management system designed to control and monitor multiple parking locations from a single platform. It enables real-time visibility, automated operations, and consistent parking control across all sites, improving efficiency and reducing operational complexity.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Centralized control of all parking locations",
+        "Better visibility of occupancy and performance",
+        "Enhanced decision-making through consolidated data",
+        "Reduced operational complexity and costs"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Managing parking across multiple locations often leads to inconsistent operations, limited visibility, and fragmented control systems. Operators struggle with coordination, monitoring, and maintaining uniform standards across all sites, resulting in inefficiency and higher operational costs.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "hotel-restaurant-parking-solutions",
+      "group": "Property & Hospitality Solutions",
+      "eyebrow": "Hotel & Restaurant Parking Solutions",
+      "title": "Seamless Guest Parking Experience for Hospitality Venues",
+      "intro": "HalaPark helps hotels, restaurants, cafés, and hospitality venues deliver a seamless parking experience while ensuring spaces remain available for genuine guests and customers. The solution includes the HalaPark Visitor Registration System, a tablet-based platform connected to the HalaPark Portal that enables guests to quickly register their vehicle details upon arrival.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Fast and convenient visitor registration",
+        "Improved parking compliance and access control",
+        "Accurate vehicle verification and record management",
+        "Reduced manual administration"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Manual visitor parking processes often lead to registration errors, unauthorized parking, and operational inefficiencies. HalaPark digitizes visitor parking management to improve accuracy, enhance security, and create a smoother arrival experience for guests and visitors.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "private-property-parking-solutions",
+      "group": "Property & Hospitality Solutions",
+      "eyebrow": "Private Property Parking Solutions",
+      "title": "Smart Parking for Residential & Real Estate Communities",
+      "intro": "HalaPark helps property owners, residential communities, mixed-use developments, and real estate operators efficiently manage parking through AI-powered monitoring, access control, and automated parking management. The solution ensures parking spaces remain available for residents, tenants, visitors, and authorized users while improving security and operational efficiency.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Resident and tenant parking management",
+        "Visitor registration and access control",
+        "Prevent unauthorized parking",
+        "Improved security and compliance"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Private properties often face unauthorized parking, visitor management challenges, and inefficient parking allocation. HalaPark provides intelligent parking control and automated access management to protect parking assets, improve resident satisfaction, and streamline property operations.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "worship-center-parking-solution",
+      "group": "Property & Hospitality Solutions",
+      "eyebrow": "Worship Center Parking Solution",
+      "title": "Seamless Parking for Mosques, Churches, and Temples",
+      "intro": "A smart and efficient parking management system designed specifically for mosques, churches, temples, and other places of worship. It ensures smooth vehicle flow during peak prayer or service times, reduces congestion, and provides a seamless parking experience for visitors through automated access control and real-time space management.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Smooth traffic flow during peak hours",
+        "Optimized use of available parking space",
+        "Faster entry and exit with automation",
+        "Reduced congestion and waiting time"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Places of worship often face severe parking challenges during peak attendance times, such as overcrowding, traffic congestion, and lack of organized space allocation. Manual parking control leads to delays, confusion, and inefficient use of limited space, creating inconvenience for visitors and operational pressure for management.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "commercial-parking",
+      "group": "Commercial & Retail Solutions",
+      "eyebrow": "Commercial Parking",
+      "title": "Intelligent Parking Infrastructure for Commercial Properties",
+      "intro": "HalaPark Commercial Parking helps office towers, retail centers, hotels, and mixed-use developments optimize parking operations through AI-powered automation, smart access control, digital validation, and real-time analytics.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Maximizes parking space utilization in business and retail areas",
+        "Reduces traffic congestion during peak working and shopping hours",
+        "Improves entry and exit flow with organized parking systems",
+        "Enables better revenue control through managed parking systems",
+        "Provides scalable solutions for high-traffic commercial developments"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Commercial properties often face congestion, inefficient parking allocation, and disconnected operational systems. HalaPark improves operational efficiency and customer convenience through intelligent parking automation.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "retail-shopping-center-parking-solution",
+      "group": "Commercial & Retail Solutions",
+      "eyebrow": "Retail & Shopping Center Parking Solution",
+      "title": "Smart, Efficient Parking for a Seamless Shopper Experience",
+      "intro": "A smart parking management system designed for malls, retail outlets, and shopping centers. It streamlines vehicle flow, reduces congestion, and improves parking efficiency through automation, real-time monitoring, and digital access control.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Reduces traffic congestion and long queues",
+        "Improves parking space utilization",
+        "Faster entry and exit with automation",
+        "Supports smooth peak-hour traffic flow"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Retail and shopping centers often struggle with parking congestion, especially during peak hours and weekends. Limited visibility of available spaces, long entry and exit queues, and inefficient manual management lead to customer frustration, lost time, and reduced shopping experience.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "event-parking-solution",
+      "group": "Commercial & Retail Solutions",
+      "eyebrow": "Event Parking Solution",
+      "title": "Smart, Scalable Parking for Smooth Event Experiences",
+      "intro": "A smart parking management system designed for concerts, exhibitions, sports venues, and large-scale events. It ensures fast vehicle movement, reduces congestion, and manages high traffic volumes efficiently through automated access, real-time space tracking, and centralized control.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Handles high traffic volumes efficiently",
+        "Reduces entry and exit congestion",
+        "Improved crowd and traffic flow control",
+        "Better guest experience and reduced waiting time"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Events often generate sudden traffic surges that overwhelm parking facilities, resulting in long queues, delays, confusion, and a poor visitor experience. Manual parking operations struggle to efficiently manage high, fast-changing demand and maintain smooth traffic flow.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "space-sharing",
+      "group": "Commercial & Retail Solutions",
+      "eyebrow": "Space Sharing",
+      "title": "Transform Underutilized Parking into Revenue Opportunities",
+      "intro": "HalaPark Space Sharing enables property owners and businesses to monetize unused parking spaces through a connected booking and management platform powered by real-time availability and digital access.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Increases revenue from underutilized parking spaces",
+        "Enables dynamic and demand-based pricing",
+        "Maximizes occupancy across different time periods",
+        "Supports revenue sharing between property owners and operators",
+        "Improves ROI for parking infrastructure"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Unused parking spaces often remain unmonetized while drivers struggle to find available parking. HalaPark connects available inventory with real-time demand through smart digital infrastructure.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "government-facilities-parking-solution",
+      "group": "Large Infrastructure & City Solutions",
+      "eyebrow": "Government Facilities Parking Solution",
+      "title": "Secure and Modern Public Sector Facilities",
+      "intro": "A secure and intelligent parking system designed to efficiently manage high-volume staff and visitor traffic in government premises. It enables automated access control using ANPR, RFID, and barrier systems, ensuring fast and authorized entry and exit. With real-time monitoring, centralized management, integrated surveillance, and cashless payments, the solution enhances security, reduces congestion, and ensures smooth and efficient parking operations.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Secure access control with ANPR, RFID, and barrier automation",
+        "Efficient management of high visitor and staff parking demand",
+        "Enhanced security with integrated CCTV and surveillance systems",
+        "Optimized space utilization with live occupancy tracking"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Government facilities often face high traffic volume, inefficient manual parking operations, security risks, limited space control, and lack of real-time monitoring, leading to delays, congestion, and poor visitor experience.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "smart-healthcare-parking-system",
+      "group": "Large Infrastructure & City Solutions",
+      "eyebrow": "Smart Healthcare Parking System",
+      "title": "Priority-Driven Parking for Patients, Staff & Emergency Vehicles",
+      "intro": "The Hospital Parking Solution is a smart, automated system that manages high hospital traffic with fast, safe access for patients, visitors, staff, and emergency vehicles. It uses ANPR and barrier control for seamless entry and exit, with priority lanes for ambulances. Real-time monitoring, smart guidance, cashless payments, and centralized management reduce congestion, improve security, and enhance overall hospital parking efficiency.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Dedicated zones for staff, patients, and visitors",
+        "Cashless and contactless payment options",
+        "Enhanced security with integrated surveillance systems",
+        "Priority access for ambulances and emergency vehicles"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Hospitals face intense, around-the-clock traffic where delays can be critical. Manual systems cause congestion, slow emergency access, and poor space visibility. HalaPark delivers priority-driven, automated parking that keeps patients, staff, and emergency vehicles moving safely.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "university-parking-management-solution",
+      "group": "Large Infrastructure & City Solutions",
+      "eyebrow": "University Parking Management Solution",
+      "title": "Smart, Secure & Efficient Campus Mobility System",
+      "intro": "A smart and efficient system designed to manage high volumes of student, staff, and visitor vehicles within campus environments. It automates entry and exit using ANPR and RFID technologies, reducing congestion and eliminating unauthorized access. With dedicated parking zones, real-time space monitoring, and smart guidance systems, users can quickly find available spaces even during peak hours.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Dedicated parking zones for faculty, students, and guests",
+        "Advance booking",
+        "Real-time parking availability and guidance",
+        "Automated access for students, staff, and visitors using ANPR/RFID",
+        "Reduced congestion during peak entry and exit times",
+        "Centralized parking management dashboard"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Universities often face overcrowded parking areas, unauthorized vehicle entry, long search times for parking, traffic congestion during peak hours, and lack of visibility over student, staff, and visitor parking usage.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "airport-parking-management-solution",
+      "group": "Large Infrastructure & City Solutions",
+      "eyebrow": "Airport Parking Management Solution",
+      "title": "Smart, Seamless & High-Capacity Travel Parking System",
+      "intro": "A smart, high-capacity parking system designed to handle continuous passenger flow and complex airport traffic operations. It automates entry and exit using ANPR and access control technologies, supports multiple parking zones (short-stay, long-stay, and VIP), and provides real-time visibility of parking availability.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefits",
+      "benefits": [
+        "Faster vehicle processing with automated ANPR access",
+        "Reduced terminal congestion and smoother traffic flow",
+        "Optimized use of short-stay, long-stay, and VIP parking zones",
+        "Enhanced security through integrated surveillance systems",
+        "Centralized control for efficient airport-wide management",
+        "Seamless cashless payment and ticketless operations"
+      ],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "Airports struggle with heavy traffic congestion, limited parking visibility, and inefficient manual systems that cause long queues and delays. Travelers waste time searching for spaces, while high vehicle turnover pressures entry and exit points. Managing short-stay, long-stay, and VIP parking manually leads to poor space utilization, security challenges, and reduced passenger experience.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "ev-charging-integration",
+      "group": "Mobility & Energy Integration",
+      "eyebrow": "EV Charging Integration",
+      "title": "Integrated EV Charging Infrastructure for Future Mobility ",
+      "intro": "HalaPark EV Charging Integration combines smart parking operations with connected EV charging infrastructure to support sustainable and future-ready developments.",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1781010503/halapark/faq-videos/kk5ih1auw6bdwgjnw3k1.jpg",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Seamless connection between parking and EV charging services",
+        "Efficient energy and load management",
+        "Supports sustainable and eco-friendly mobility infrastructure",
+        "Scalable system for future expansion of EV networks",
+        "Real-time availability and occupancy visibility"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Disconnected charging systems and limited EV infrastructure create operational complexity and poor user experiences. HalaPark simplifies EV mobility through integrated intelligent charging management.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "subtitle": "EV CHARGING INTEGRATION ",
+      "shortDescription": "HalaPark EV Charging Integration combines smart parking operations with connected EV charging infrastructure to support sustainable and future-ready developments. ",
+      "ar": {
+        "whyHeading": ""
+      },
+      "whyBody": "Electric mobility is growing rapidly, but without integrated systems, EV charging and parking infrastructure remain fragmented and inefficient. This leads to poor user experiences, energy inefficiency, and slower adoption of sustainable transport. Integrated EV charging and smart parking solutions enable better energy management, real-time visibility, and seamless user access, while supporting cities in reducing emissions and building scalable, future-ready mobility ecosystems.",
+      "whyHeading": "WHY EV CHARGING INTEGRATION MATTERS",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "fleet-parking-integration",
+      "group": "Mobility & Energy Integration",
+      "eyebrow": "Fleet Parking Integration",
+      "title": "Intelligent Fleet Mobility & Parking Management",
+      "intro": "HalaPark Fleet Parking Integration provides centralized parking management and intelligent mobility coordination for corporate fleets, logistics operators, commercial vehicles, and enterprise transportation environments. The platform enables automated fleet access, vehicle tracking, operational visibility, and optimized parking allocation across multiple locations.",
+      "image": "/hf_20260327_060926_cbb82448-441c-42ee-9589-785e7acd7565.png",
+      "benefitsHeading": "Key Benefit",
+      "benefits": [
+        "Automated fleet identification using ANPR and access control",
+        "Real-time tracking and monitoring of vehicle movements",
+        "Dedicated parking allocation for fleet vehicles",
+        "Centralized dashboard for full fleet visibility and control",
+        "Optimized fleet utilization and operational efficiency"
+      ],
+      "problemHeading": "The Problem We Solve",
+      "problemBody": "Traditional fleet parking operations often rely on manual coordination, disconnected access systems, and limited operational visibility — creating inefficiencies, delays, and poor fleet utilization. HalaPark modernizes fleet mobility through intelligent automation and centralized infrastructure management.",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "new-solution-hgcghcg",
+      "group": "",
+      "eyebrow": "New Solution hgcghcg",
+      "title": "New Solution hgcghcg",
+      "intro": "Descriptionhcghcghh",
+      "image": "/image.png",
+      "howItOperates": "",
+      "systemComponentsHeading": "System Components",
+      "systemComponents": [],
+      "benefitsHeading": "Key Benefit",
+      "benefits": [],
+      "problemHeading": "Problem We Solve",
+      "problemBody": "",
+      "ctaLabel": "Talk to Our Team",
+      "ctaLink": "/contact",
+      "systems": [],
+      "relatedServices": [
+        "ev-charging-integration"
+      ],
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "monitoring-guidance-circulation-systems",
+      "title": "Monitoring & Guidance Circulation Systems",
+      "subtitle": "Optimize Traffic Flow and Enhance Parking Efficiency",
+      "shortDescription": "Monitor vehicle movements in real time and guide drivers to available parking spaces through intelligent circulation and parking guidance technologies.",
+      "ctaLabel": "Contact Us",
+      "whyHeading": "Why Monitoring & Guidance Circulation Systems Matter?",
+      "whyBody": "Efficient vehicle circulation is essential for delivering a smooth parking experience and maximizing parking facility performance. Drivers often spend valuable time searching for available parking spaces, creating congestion, unnecessary vehicle emissions, driver frustration, and operational inefficiencies.\n\nHalaPark's Monitoring & Guidance Circulation Systems provide real-time visibility into parking occupancy and vehicle movement throughout the facility. Using intelligent sensors, cameras, digital signages, and AI-powered monitoring tools, the solution directs drivers to available spaces quickly while enabling operators to monitor traffic flow, reduce congestion, and optimize parking utilization.\n\nThe result is a smarter parking environment that improves customer satisfaction, enhances operational efficiency, and supports data-driven facility management.",
+      "problemHeading": "Problem We Face",
+      "problemBody": "Many parking facilities lack visibility into vehicle movement and parking occupancy. Drivers frequently circle parking areas searching for vacant spaces, leading to traffic bottlenecks, wasted time, increased fuel consumption, and poor visitor experiences.\n\nWithout real-time guidance and circulation monitoring, operators face difficulties in managing traffic flow, identifying congestion areas, and maximizing parking space utilization.",
+      "solutionHeading": "Our Solution",
+      "solutionBody": "HalaPark's Monitoring & Guidance Circulation Systems utilize smart sensors, AI cameras, occupancy detection technologies, and digital guidance displays to provide real-time parking availability information throughout the facility.\n\nThe system continuously monitors vehicle circulation patterns, occupancy levels, and traffic conditions. Drivers are guided to available spaces through dynamic signage and mobile integrations, while operators gain access to centralized dashboards for monitoring performance, congestion points, and parking trends.\n\nThis intelligent ecosystem improves traffic circulation, reduces search times, and creates a seamless parking experience.",
+      "benefitsHeading": "Key Benefits",
+      "keyBenefits": [
+        {
+          "title": "Faster Parking Experience",
+          "description": "Guide drivers directly to available parking spaces with minimal searching."
+        },
+        {
+          "title": "Reduced Traffic Congestion",
+          "description": "Improve vehicle circulation and eliminate bottlenecks within parking facilities."
+        },
+        {
+          "title": "Higher Space Utilization",
+          "description": "Maximize occupancy rates through real-time parking availability management."
+        },
+        {
+          "title": "Enhanced Customer Satisfaction",
+          "description": "Reduce driver frustration and improve overall visitor experience."
+        },
+        {
+          "title": "Real-Time Operational Visibility",
+          "description": "Monitor parking activity, traffic flow, and occupancy levels from a centralized dashboard."
+        }
+      ],
+      "howItWorksHeading": "How It Works",
+      "howItWorksBody": "",
+      "steps": [
+        {
+          "title": "Occupancy Detection",
+          "description": "Sensors and AI cameras detect parking space availability in real time."
+        },
+        {
+          "title": "Data Processing",
+          "description": "The system analyzes occupancy and circulation data continuously."
+        },
+        {
+          "title": "Driver Guidance",
+          "description": "Digital signages and guidance displays direct drivers to available parking zones and spaces."
+        },
+        {
+          "title": "Traffic Monitoring",
+          "description": "Vehicle movement and circulation patterns are monitored throughout the facility."
+        },
+        {
+          "title": "Performance Analytics",
+          "description": "Operators access reports, occupancy statistics, and traffic flow analytics."
+        },
+        {
+          "title": "Continuous Optimization",
+          "description": "Operational insights help improve circulation strategies and parking efficiency."
+        }
+      ],
+      "relatedHeading": "Other Related Services",
+      "relatedServices": [
+        "smart-ecosystem-integration",
+        "ai-powered-anpr-parking-management"
+      ],
+      "image": "/image.png",
+      "group": "",
+      "eyebrow": "Monitoring & Guidance Circulation Systems",
+      "ctaLink": "/contact",
+      "ar": {
+        "title": "أنظمة المراقبة والإرشاد والتنقل"
+      },
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "soltuion-secton",
+      "group": "",
+      "eyebrow": "Soltuion Secton",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782982558/halapark/faq-videos/wy2lukymldhveueaywer.webp",
+      "title": "Soltuion Secton",
+      "subtitle": "",
+      "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.",
+      "ctaLabel": "Contact Us",
+      "ctaLink": "/contact",
+      "whyHeading": "",
+      "whyBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.",
+      "whyImage": "",
+      "problemHeading": "Problem We Face",
+      "problemBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.",
+      "solutionHeading": "Our Solution",
+      "solutionBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.",
+      "benefitsHeading": "Key Benefits",
+      "keyBenefits": [],
+      "howItWorksHeading": "How It Works",
+      "howItWorksBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.",
+      "steps": [],
+      "relatedHeading": "Other Related Services",
+      "relatedServices": [
+        "smart-ecosystem-integration",
+        "seamless-integrations",
+        "ai-powered-anpr-parking-management",
+        "smart-mobility-payments-platform",
+        "smart-slot-reservation",
+        "on-street-parking",
+        "parking-access-control-solutions"
+      ],
+      "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation an",
+      "ar": {
+        "eyebrow": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة",
+        "title": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+        "subtitle": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس ",
+        "shortDescription": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.",
+        "ctaLabel": "لوريم إيبسوم هو نص شكلي يُستخد",
+        "whyHeading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+        "whyBody": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.",
+        "problemBody": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.",
+        "problemHeading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+        "solutionHeading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+        "solutionBody": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.",
+        "benefitsHeading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+        "howItWorksHeading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+        "howItWorksBody": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس موسلي، أمين مكتبة سانت برايد للطباعة في لندن، بأخذ ترجمة شيشرون لعام ١٩١٤ وخلطها لإنشاء نص شكلي لأوراق الطباعة الأساسية لشركة ليتراسيت. وقد صمد هذا النص لعقود طويلة، بل وتجاوز أيضًا الانتقال إلى التنضيد الإلكتروني، وظلّ دون تغيير يُذكر. وقد انتشر استخدامه بفضل هذه الأوراق، ومؤخرًا بفضل برامج النشر المكتبي مثل ألدوس بيج ميكر ومايكروسوفت وورد التي تتضمن إصدارات من لوريم إيبسوم.لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندم",
+        "relatedHeading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك"
+      },
+      "problemImage": "",
+      "solutionImage": ""
+    },
+    {
+      "slug": "solutionresigtn",
+      "group": "",
+      "eyebrow": "Soltuion Secton",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782982558/halapark/faq-videos/wy2lukymldhveueaywer.webp",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+      "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designe",
+      "shortDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Ald",
+      "ctaLabel": "Contact Us",
+      "ctaLink": "/contact",
+      "whyHeading": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem",
+      "whyBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.",
+      "whyImage": "",
+      "problemHeading": "Problem We Face",
+      "problemBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these ",
+      "solutionHeading": "Our Solution",
+      "solutionBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these ",
+      "benefitsHeading": "Key Benefits teting",
+      "keyBenefits": [],
+      "howItWorksHeading": "How It Works",
+      "howItWorksBody": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Ald",
+      "steps": [],
+      "relatedHeading": "Other Related Services",
+      "relatedServices": [],
+      "ar": {
+        "keyBenefits": []
+      },
+      "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation an",
+      "problemImage": "",
+      "solutionImage": ""
+    }
+  ]
+}

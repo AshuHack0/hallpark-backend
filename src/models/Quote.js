@@ -9,6 +9,17 @@ const quoteSchema = new mongoose.Schema(
     tower: { type: String, trim: true },
     slots: { type: String, trim: true },
     message: { type: String, trim: true },
+    // Optional file attachments uploaded to Cloudinary from the quote form.
+    attachments: {
+      type: [
+        {
+          url: { type: String, required: true, trim: true },
+          name: { type: String, trim: true },
+          type: { type: String, trim: true },
+        },
+      ],
+      default: [],
+    },
     source: { type: String, trim: true, default: "website" },
     status: { type: String, enum: ["new", "contacted", "closed"], default: "new" },
   },
