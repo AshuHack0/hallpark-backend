@@ -18,6 +18,14 @@ import {
   updateContactStatus,
   deleteContact,
 } from "../controllers/contact.controller.js";
+import {
+  listProposals,
+  updateProposalStatus,
+  deleteProposal,
+  listConsultations,
+  updateConsultationStatus,
+  deleteConsultation,
+} from "../controllers/proposals.controller.js";
 import { authRequired } from "../middleware/auth.js";
 
 const router = Router();
@@ -39,5 +47,13 @@ router.get("/contacts", listContacts);
 router.get("/contacts/:id", getContact);
 router.patch("/contacts/:id/status", updateContactStatus);
 router.delete("/contacts/:id", deleteContact);
+
+router.get("/proposals", listProposals);
+router.patch("/proposals/:id/status", updateProposalStatus);
+router.delete("/proposals/:id", deleteProposal);
+
+router.get("/consultations", listConsultations);
+router.patch("/consultations/:id/status", updateConsultationStatus);
+router.delete("/consultations/:id", deleteConsultation);
 
 export default router;
