@@ -1130,6 +1130,18 @@ function defaultSections(slug) {
     return defaultFaqSections;
   }
 
+  // Legal / long-text pages (Terms, Privacy, Refund): a single plain-text body
+  // (+ Arabic sibling). Starts empty — the admin fills it from the dashboard.
+  if (slug === "terms-conditions" || slug === "privacy-policy" || slug === "refund-policy") {
+    return {
+      legal: {
+        title: FRONTEND_PAGES.find((p) => p.slug === slug)?.name ?? slug,
+        body: "",
+        ar: { title: "", body: "" },
+      },
+    };
+  }
+
   return {
     hero: {
       eyebrow: slug.replace(/-/g, " ").toUpperCase(),

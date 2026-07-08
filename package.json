@@ -13,6 +13,7 @@
     "seed:solutions": "node src/seed/solutions.force.js",
     "seed:solution-details": "node src/seed/solution-details.force.js",
     "seed:business": "node src/seed/business.force.js",
+    "seed:legal": "node src/seed/legal.force.js",
     "lint": "eslint src"
   },
   "engines": {
