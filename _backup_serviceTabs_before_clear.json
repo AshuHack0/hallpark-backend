@@ -1,0 +1,43 @@
+{
+  "tabs": [
+    {
+      "key": "EV Charge",
+      "label": "EV Chaerge Label",
+      "description": "Ev Charge Description",
+      "steps": [
+        "Step1",
+        "Stepo2",
+        "Step3"
+      ],
+      "cardKicker": "Testing the Card Kicker",
+      "cta": "PILL CTa small Otlined Buttonm",
+      "builtFor": "City access \"Built for\" sentence (under the title)",
+      "screen": "/Payment.png"
+    },
+    {
+      "key": "asda",
+      "label": "asdfs",
+      "description": "sasdfas",
+      "builtFor": "",
+      "cardKicker": "d",
+      "cta": "asd",
+      "steps": [
+        "step 1",
+        "step 2",
+        "step 3"
+      ],
+      "screen": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783480538/halapark/faq-videos/xtxznzpplcohvbidfpst.webp",
+      "iconImage": ""
+    }
+  ],
+  "ctaLabel": "main fetaure chip cta",
+  "featureChips": [
+    "Featurecheip-asdasdf-asadsas-asdasd"
+  ],
+  "ar": {
+    "featureChips": [
+      "Find"
+    ],
+    "ctaLabel": "Find My Parking- TestingFind M"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "heading": "",
+  "headingGradient": "",
+  "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designe",
+  "cards": [
+    {
+      "title": "New Integration 1",
+      "description": "",
+      "points": [
+        "test1",
+        "test2",
+        "test3",
+        "test"
+      ],
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782983386/halapark/faq-videos/nmelbo0srhijd2jsrl7l.webp",
+      "gradient": "from-[#0078E0]/85 via-[#0088FF]/60 to-[#0088FF]/20"
+    }
+  ],
+  "color": "#0088FF"
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Testing Testing Testing Testing",
+  "subtitle": "\ntesting testing testing testing testing testing testing testing testing testing testing testing\n",
+  "ctaLabel": "Get a Quote",
+  "chips": [
+    "Testing Testing Testing Testing",
+    "testing",
+    "ress",
+    "asdsas",
+    "eqe",
+    "4234"
+  ],
+  "chipsMore": "+13 More fir the testing",
+  "ar": {
+    "title": "ختبار اختبار اختبار اختبارلوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتن",
+    "subtitle": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس ",
+    "chips": [
+      "ختبار اختبار اختبار اختبار",
+      "النص الشكلي معيارًا",
+      "النص الشكلي معيارًا",
+      "النص الشكلي مع يارًا",
+      "النص ال شك لي مع يا رًا"
+    ],
+    "chipsMore": "النص الشكلي معيارًا "
+  },
+  "enabled": true,
+  "slides": [
+    {
+      "img": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783684615/halapark/faq-videos/jpdtoaincrzqkyme4rgb.jpg",
+      "name": "testi g",
+      "tag": "tes",
+      "ar": {}
+    }
+  ]
+}

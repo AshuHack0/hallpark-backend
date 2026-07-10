@@ -1,0 +1,361 @@
+{
+  "hero": {
+    "eyebrow": "",
+    "title": "business hero ",
+    "subtitle": "Edit this page content from the HalaPark admin dashboard.",
+    "description": "",
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1780989706/halapark/faq-videos/sppdw21ht6ew4qylaih2.png",
+    "features": [
+      ""
+    ],
+    "ctaPrimary": "",
+    "ctaSecondary": "",
+    "ar": {
+      "title": "اختبار اختبار اختبار اختبار",
+      "description": "\nختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار\n",
+      "features": [
+        "ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار"
+      ]
+    },
+    "deckImages": [
+      {
+        "img": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783525257/halapark/faq-videos/e5gofwqiybhbyantj6e9.jpg",
+        "label": ""
+      }
+    ],
+    "enabled": true
+  },
+  "builtForSpace": {
+    "title": "builder ",
+    "description": "testing testing testing testing testing testing testing testing testing testing testing testingtesting testing testing testing testing testing testing testing testing testing testing testingtesting testing testing testing testing testing testing testing testing testing testing testingtesting testing testing testing testing testing testing testing testing testing testing testingtesting testing testing testing testing testing testing testing testing testing testing testingtesting testing testing testing testing testing testing testing testing testing testing testingtesting testing testing testin",
+    "ar": {
+      "title": "اختبار اختبار اختبار اختبار",
+      "description": "ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار"
+    },
+    "titleGradient": "every space ",
+    "enabled": false
+  },
+  "whyChoose": [
+    {
+      "title": "New Reason test",
+      "description": "Description here for the tesing",
+      "bgGradient": "from-[#00C8DDFE] to-[#0027282B]",
+      "accentColor": "bg-[#0066F443]",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783525434/halapark/faq-videos/ewmducmtzwcnsgppptrg.png"
+    },
+    {
+      "title": "New Reason",
+      "description": "Description here",
+      "bgGradient": "from-[#3C83F6] to-[#131820]",
+      "accentColor": "bg-[#0088FF]"
+    }
+  ],
+  "solutions": [
+    {
+      "title": "New Solution",
+      "description": "Description here",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783525570/halapark/faq-videos/ck6ejlpodxrk71uoefmg.jpg",
+      "icon": "🅿️"
+    },
+    {
+      "title": "New Solution",
+      "description": "",
+      "image": "/image.png",
+      "icon": "🅿️"
+    },
+    {
+      "title": "New Solution",
+      "description": "Description here",
+      "image": "/image.png",
+      "icon": "🅿️"
+    },
+    {
+      "title": "New Solution",
+      "description": "Description here",
+      "image": "/image.png",
+      "icon": "🅿️"
+    },
+    {
+      "title": "New Solution",
+      "description": "Description here",
+      "image": "/image.png",
+      "icon": "🅿️"
+    },
+    {
+      "title": "New Solution",
+      "description": "Description here",
+      "image": "/image.png",
+      "icon": "🅿️"
+    },
+    {
+      "title": "New Solution",
+      "description": "Description here",
+      "image": "/image.png",
+      "icon": "🅿️"
+    }
+  ],
+  "whoWeWork": [
+    {
+      "title": "testing ",
+      "description": "testing",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783528715/halapark/faq-videos/fvomcvevsuwn8bsj79ou.jpg",
+      "benefits": [
+        "Benefit 1",
+        "Benefit 2"
+      ],
+      "icon": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783528795/halapark/faq-videos/jhpjnnnfvfkoljnizb10.svg",
+      "ar": {
+        "benefits": [
+          ""
+        ]
+      }
+    },
+    {
+      "title": "New Partner",
+      "description": "Description here",
+      "image": "/image.png",
+      "benefits": [
+        "Benefit 1",
+        "Benefit 2"
+      ]
+    },
+    {
+      "title": "New Partner",
+      "description": "Description here",
+      "image": "/image.png",
+      "benefits": [
+        "Benefit 1",
+        "Benefit 2"
+      ]
+    },
+    {
+      "title": "New Partner",
+      "description": "Description here",
+      "image": "/image.png",
+      "benefits": [
+        "Benefit 1",
+        "Benefit 2"
+      ]
+    }
+  ],
+  "partnersStats": [
+    {
+      "value": "5th",
+      "label": "Field Expertise"
+    },
+    {
+      "value": "95%",
+      "label": "Client Satisfaction"
+    },
+    {
+      "value": "120",
+      "label": "CP Clients Trusted"
+    }
+  ],
+  "partnersShowcase": {
+    "heading": "",
+    "headingGradient": "",
+    "subheading": "Tesging the partner show case Tesging the partner show case Tesging the partner show case",
+    "description": "Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show caseTesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case Tesging the partner show case",
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1782976446/halapark/faq-videos/m7t4rvzubb2zi2zsbctv.avif",
+    "stats": [
+      {
+        "value": "1",
+        "label": "New Stat"
+      },
+      {
+        "value": "0",
+        "label": "New Stat"
+      }
+    ],
+    "ctaLabel": "Get Started the label",
+    "partners": {
+      "heading": "Trusted by Industry Leaders for the details",
+      "subheading": "Work with some of the most recognized brands and organizations testing dasdas Work with some of the most recognized brands and organizations testing dasdas Work",
+      "row1": [
+        {
+          "name": "New Partner",
+          "industry": "Industry",
+          "initials": "",
+          "color": "#2767a0",
+          "logo": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783654072/halapark/faq-videos/pxw7aolbkbzxpyoedzdw.jpg"
+        }
+      ],
+      "row2": [
+        {
+          "name": "New Partner 2",
+          "industry": "Industry 2",
+          "initials": "NP",
+          "color": "#0088FF"
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Ready to Partner with HalaPark?",
+      "description": "Join our growing network of trusted partners and transform your parking infrastructure today.",
+      "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783654579/halapark/faq-videos/zhibuhv042hwzjf0grvv.jpg",
+      "enabled": true
+    },
+    "carouselHeading": "Trusted by Industry Leaders Trusted by Industry Leaders Trusted by Industry Lead",
+    "carouselSubheading": "Work with some of the most recognized brands and organizations Work with some of the most recognized brands and organizations",
+    "ctaSectionLabel": "Get in Touch",
+    "carousel": {
+      "enabled": true
+    }
+  },
+  "transformParking": {
+    "title": "tttt",
+    "description": "lkjlkjl",
+    "parkingPartnerTitle": "hikj,m",
+    "parkingPartnerSubtitle": "ljk",
+    "parkingPartnerDescription": "lk",
+    "parkingPartnerPerks": [
+      "oilkj"
+    ],
+    "servicePartnerTitle": "pklm,",
+    "servicePartnerSubtitle": "kl,.",
+    "servicePartnerDescription1": "kl,m. ",
+    "servicePartnerDescription2": "km,.",
+    "servicePartnerPerks": [],
+    "titleAccent": "iuiu",
+    "ar": {
+      "parkingPartnerTitle": ""
+    },
+    "parkingPartnerCtaLabel": "lklk",
+    "servicePartnerCtaLabel": "lkm",
+    "enabled": false
+  },
+  "advantage": [],
+  "cta": {
+    "title": "Start a Smart Parking Business with No Upfront Investment",
+    "description": "",
+    "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783654443/halapark/faq-videos/ujkd8yevju3jzk0s955v.webp",
+    "ctaLabel": "",
+    "ctaLink": "",
+    "heading": "",
+    "headingAccent": "",
+    "enabled": false
+  },
+  "howToGetStarted": {
+    "eyebrow": "How It Works",
+    "heading": "How to Get Started",
+    "description": "",
+    "steps": [
+      {
+        "title": "Book a free consultation",
+        "description": ""
+      },
+      {
+        "title": "We assess your site and design a custom setup",
+        "description": ""
+      },
+      {
+        "title": "Installation and onboarding",
+        "description": ""
+      },
+      {
+        "title": "Go live -- fully managed from day one",
+        "description": ""
+      },
+      {
+        "title": "New- Testing",
+        "description": "\ntesting testing testing testing testing testing testing testing testing testing testing testing\n",
+        "ar": {
+          "title": "جديد - اختبار",
+          "description": "ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار"
+        }
+      }
+    ],
+    "ctaLabel": "Book a Consultation"
+  },
+  "solutionsHeader": {
+    "heading": "business ka solution ",
+    "headingAccent": "Solutions for the details",
+    "description": "Intelligent parking systems built for every business type, from single sites to large-scale multi-location operations. Intelligent parking systems built for every business type, from single sites to large-scale multi-location operations.Intelligent parking systems built for every business type, from single sites to large-scale multi-location operations.Intelligent parking systems built for every business type, from single sites to large-scale multi-location operations.",
+    "description2": "testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing testing  testing testing testing testing testing testing testing testing",
+    "ctaLabel": "Explore All Solutions For the ",
+    "ar": {
+      "description2": "ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار"
+    },
+    "enabled": false
+  },
+  "valueProps": {
+    "eyebrow": "How It Works",
+    "heading": "Why Businesses Choose HalaPark",
+    "description": "Built for modern parking operations, HalaPark helps businesses increase revenue, simplify management, and deliver a smoother experience for every driver.",
+    "items": [
+      {
+        "title": "Revenue Generation",
+        "description": "Stop leaving money on the table. Our platform maximises occupancy and automates payments 24/7."
+      },
+      {
+        "title": "Operational Control",
+        "description": "One dashboard for access, reporting, and management across all your locations."
+      },
+      {
+        "title": "Full Support",
+        "description": "From installation to daily ops, our team handles the technical side so you can focus on your business."
+      },
+      {
+        "title": "New- Testing",
+        "description": "testing testing testing testing testing testing testing testing testing testing testing testing",
+        "ar": {
+          "title": "جديد - اختبار",
+          "description": "ختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار اختبار"
+        }
+      }
+    ]
+  },
+  "whoItsFor": {
+    "heading": "Who It's For",
+    "description": "Designed for residential, commercial, retail, healthcare, and hospitality environments, HalaPark adapts to the needs of every property with smoother access, better control, and a more efficient parking experience.",
+    "items": [
+      {
+        "title": "Residential Towers"
+      },
+      {
+        "title": "Commercial Properties"
+      },
+      {
+        "title": "Retail Centres"
+      },
+      {
+        "title": "Hospitals & Healthcare"
+      },
+      {
+        "title": "Corporate Campuses"
+      },
+      {
+        "title": "Hospitality & Hotels"
+      },
+      {
+        "title": "New- Testing",
+        "ar": {
+          "title": "جديد - اختبار"
+        }
+      }
+    ],
+    "eyebrow": "Who It's For"
+  },
+  "whyChooseHeader": {
+    "heading": "Why choose hai",
+    "headingGradient": "HalaPark/ Testing",
+    "cardEyebrow": "Smart Solutions/ Testing",
+    "enabled": false
+  },
+  "whoWeWorkHeader": {
+    "heading": "Work With the value of customer to achivWork With the value of customer to achiv",
+    "headingGradient": "Work With the value of customer to achiv",
+    "subtitle": "Trusted by leading organiz ations across industries Trusted by leading organizations across industries Trusted by leading organizations across industriesTrusted",
+    "categoryLabel": "Category Label",
+    "benefitsLabel": "Key Benefits of our services",
+    "ctaLabel": "LEARN MORE",
+    "enabled": false,
+    "ctaLink": "/contact"
+  },
+  "advantageHeader": {
+    "heading": "",
+    "headingGradient": "",
+    "enabled": false
+  }
+}

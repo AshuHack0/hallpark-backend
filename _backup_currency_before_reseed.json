@@ -1,0 +1,32 @@
+{
+  "title": "app curancy section Pay Instantly. Park Effortlessly. Stay in Control. - ",
+  "subtitle": "Pay Instantly.  ",
+  "description": "  [[#597a97]]Fast[[/]], cashless parking across the UAE with [[#c81e1e]]wallet[[/]], Apple Pay, and card options. - testing testing testing testing testing testing[[#d77979]] testing testing testing testing testing testingFast, cashless parking across the UAE with wallet, Apple Pay, and card options. - testing testing testing testing testing testing testing testing testing testing testing t , parking across the UAE with wallet, Apple Pay, and card options. - testing testing testing testing testing testing testing testing testing testing testing testingFast, cashless parking across the UAE with wallet, Apple Pay, and c[[/]]",
+  "cardFeatures": [
+    {
+      "title": "Testing",
+      "subtitle": ""
+    },
+    {
+      "title": "testing 22",
+      "subtitle": "testing 2",
+      "icon": "MapPinned"
+    }
+  ],
+  "topUpLabel": "Not top up wallet",
+  "topUpSteps": [
+    {
+      "title": "Open the HalaPark app",
+      "description": "Go to the Wallet tab from the home screen."
+    },
+    {
+      "title": "Tap \"Top Up\"",
+      "description": "Choose an amount or enter a custom value."
+    },
+    {
+      "title": "Pay securely",
+      "description": "Use Apple Pay, card, or your saved payment method."
+    }
+  ],
+  "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783481191/halapark/faq-videos/lo6c5jcxaddmoyievjv8.webp"
+}
