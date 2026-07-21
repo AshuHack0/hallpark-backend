@@ -21,7 +21,7 @@ const quoteSchema = new mongoose.Schema(
       default: [],
     },
     source: { type: String, trim: true, default: "website" },
-    status: { type: String, enum: ["new", "contacted", "closed"], default: "new" },
+    status: { type: String, enum: ["new", "reviewed", "contacted", "closed"], default: "new" },
   },
   { timestamps: true },
 );

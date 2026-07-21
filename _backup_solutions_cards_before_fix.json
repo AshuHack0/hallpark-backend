@@ -1,0 +1,45 @@
+{
+  "solutions": {
+    "heading": "Our",
+    "headingGradient": "Solutions for Heading",
+    "subtitle": "Intelligent parking systems built for efficiency, control, and scale dasdasd asdasdas dasdasdsad",
+    "cards": [
+      {
+        "slug": "asdfasfasasa",
+        "title": "asasf  Solution",
+        "description": "Descriptionsdfg s",
+        "image": "https://res.cloudinary.com/dmm6a4ksm/image/upload/v1783518566/halapark/faq-videos/o84fordi9rgrzcdz2qth.jpg",
+        "ar": {
+          "title": "vfdfgsd",
+          "description": "sfgsg"
+        },
+        "group": "Soltuoin1"
+      },
+      {
+        "slug": "",
+        "title": "New Solution",
+        "description": "Description",
+        "image": "/image.png"
+      }
+    ],
+    "advantages": {
+      "heading": "Testing the Advantages",
+      "items": []
+    },
+    "groups": [
+      "Soltuoin1"
+    ],
+    "ar": {
+      "groups": [],
+      "heading": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشك",
+      "headingGradient": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة",
+      "subtitle": "لوريم إيبسوم هو نص شكلي يُستخدم في صناعة الطباعة والتنضيد. وقد ظلّ هذا النص الشكلي معيارًا في هذه الصناعة منذ عام ١٩٦٦، عندما قام مصممون في شركة ليتراسيت وجيمس "
+    },
+    "enabled": true
+  },
+  "detailSlugs": [
+    "soltuion-secton",
+    "soclution",
+    "asdfasfasasa"
+  ]
+}

@@ -4,7 +4,13 @@ import {
   listPagesAdmin,
   updatePageAdmin,
 } from "../controllers/pages.controller.js";
-import { getStats, listQuotes } from "../controllers/quotes.controller.js";
+import {
+  getStats,
+  listQuotes,
+  getQuote,
+  updateQuoteStatus,
+  deleteQuote,
+} from "../controllers/quotes.controller.js";
 import {
   listJobApplications,
   getJobApplication,
@@ -37,6 +43,9 @@ router.get("/pages", listPagesAdmin);
 router.get("/pages/:slug", getPageAdmin);
 router.put("/pages/:slug", updatePageAdmin);
 router.get("/quotes", listQuotes);
+router.get("/quotes/:id", getQuote);
+router.patch("/quotes/:id/status", updateQuoteStatus);
+router.delete("/quotes/:id", deleteQuote);
 router.get("/job-applications", listJobApplications);
 router.get("/job-applications/:id", getJobApplication);
 router.patch("/job-applications/:id/status", updateJobApplicationStatus);

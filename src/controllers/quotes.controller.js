@@ -55,6 +55,41 @@ export async function listQuotes(_req, res, next) {
   }
 }
 
+export async function getQuote(req, res, next) {
+  try {
+    const quote = await Quote.findById(req.params.id);
+    if (!quote) return res.status(404).json({ error: "Quote not found" });
+    res.json({ quote });
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function updateQuoteStatus(req, res, next) {
+  const VALID = ["new", "reviewed", "contacted", "closed"];
+  try {
+    const { status } = req.body;
+    if (!VALID.includes(status)) {
+      return res.status(400).json({ error: `Status must be one of: ${VALID.join(", ")}` });
+    }
+    const quote = await Quote.findByIdAndUpdate(req.params.id, { status }, { new: true });
+    if (!quote) return res.status(404).json({ error: "Quote not found" });
+    res.json({ quote });
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function deleteQuote(req, res, next) {
+  try {
+    const quote = await Quote.findByIdAndDelete(req.params.id);
+    if (!quote) return res.status(404).json({ error: "Quote not found" });
+    res.json({ ok: true });
+  } catch (err) {
+    next(err);
+  }
+}
+
 export async function getStats(_req, res, next) {
   try {
     const [
