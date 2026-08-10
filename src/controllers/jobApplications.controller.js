@@ -12,13 +12,15 @@ const optionalStr = z
 const jobApplicationSchema = z.object({
   fullName: z.string().trim().min(1),
   email: z.string().trim().email(),
-  phone: z.string().trim().min(1),
+  phone: optionalStr,
   jobTitle: z.string().trim().min(1),
   department: optionalStr,
   location: optionalStr,
   message: optionalStr,
   linkedIn: optionalStr,
   resumeUrl: optionalStr,
+  birthDate: optionalStr,
+  hearAbout: optionalStr,
   source: optionalStr,
 });
 
