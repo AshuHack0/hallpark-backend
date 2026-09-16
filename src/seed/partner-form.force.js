@@ -4,13 +4,11 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Seeds the site-wide partnership popup:
-//   node src/seed/partner-form.force.js          → popup copy in Site Settings only
-//   node src/seed/partner-form.force.js --links  → ALSO points every partner CTA at the popup
+//   node src/seed/partner-form.force.js         → popup copy in Site Settings only
+//   node src/seed/partner-form.force.js --tick  → ALSO ticks "Open Partnership Form popup" on every partner CTA
 //
-// Run --links only AFTER the frontend with PartnershipFormProvider is deployed —
-// on an older frontend a "#partner-form" link does nothing when clicked.
-
-const PARTNER_FORM_LINK = "#partner-form";
+// Ticking is safe before the frontend deploy: older frontends ignore the flag
+// and keep using each button's link.
 
 const PARTNERSHIP_FORM = {
   heading: "Become a Partner",
@@ -26,22 +24,26 @@ const PARTNERSHIP_FORM = {
   },
 };
 
-// [page slug, dotted path under `sections`, description]
-const PARTNER_LINKS = [
-  ["business", "transformParking.parkingPartnerCtaLink", "Business · Start Earning with HalaPark"],
-  ["business", "transformParking.servicePartnerCtaLink", "Business · Partner With Us Today"],
-  ["business", "partnersShowcase.ctaLink", "Business · Become a Partner"],
-  ["business", "partnersShowcase.ctaSectionLink", "Business · Ready to Partner (Get in Touch)"],
-  ["home", "aiPoweredParking.cards.1.href", "Home · Partner With Us"],
-  ["about", "cta.primaryCtaLink", "About · Partner With HalaPark"],
-  ["solutions", "cta.secondaryLink", "Solutions · Partner With Us"],
-  ["services", "partnersSection.ctaLink", "Services · Want to become a partner? Get in touch"],
+// [page slug, flag path under `sections`, label path under `sections` (sanity check), description]
+const PARTNER_BUTTONS = [
+  ["business", "transformParking.parkingPartnerCtaPopup", "transformParking.parkingPartnerCtaLabel", "Business · Parking Partner card"],
+  ["business", "transformParking.servicePartnerCtaPopup", "transformParking.servicePartnerCtaLabel", "Business · Service Partner card"],
+  ["business", "partnersShowcase.ctaPopup", "partnersShowcase.ctaLabel", "Business · Partners Showcase"],
+  ["business", "partnersShowcase.ctaSectionPopup", "partnersShowcase.ctaSectionLabel", "Business · Ready to Partner section"],
+  ["home", "aiPoweredParking.cards.1.popup", "aiPoweredParking.cards.1.ctaLabel", "Home · For Business card"],
+  ["about", "cta.primaryCtaPopup", "cta.primaryCtaText", "About · final CTA primary"],
+  ["solutions", "cta.secondaryPopup", "cta.secondaryLabel", "Solutions · final CTA secondary"],
+  ["services", "partnersSection.ctaPopup", "partnersSection.ctaLabel", "Services · Clients & Partners line"],
 ];
 
-const withLinks = process.argv.includes("--links");
+const withTick = process.argv.includes("--tick");
 
 async function findPage(col, slug) {
   return (await col.findOne({ slug })) || (await col.findOne({ page: slug }));
+}
+
+function getPath(obj, path) {
+  return path.split(".").reduce((o, k) => (o == null ? undefined : o[k]), obj);
 }
 
 async function run() {
@@ -57,18 +59,19 @@ async function run() {
     console.log("settings.partnershipForm seeded");
   }
 
-  if (withLinks) {
-    for (const [slug, path, label] of PARTNER_LINKS) {
+  if (!withTick) {
+    console.log("partner CTA tick boxes not changed (pass --tick)");
+  } else {
+    for (const [slug, flagPath, labelPath, desc] of PARTNER_BUTTONS) {
       const page = await findPage(col, slug);
-      if (!page) {
-        console.log(`SKIP ${label}: page "${slug}" not found`);
+      const label = page ? getPath(page.sections, labelPath) : undefined;
+      if (!page || typeof label !== "string" || !label.trim()) {
+        console.log(`SKIP ${desc}: button not found`);
         continue;
       }
-      await col.updateOne({ _id: page._id }, { $set: { [`sections.${path}`]: PARTNER_FORM_LINK } });
-      console.log(`linked ${label} → ${PARTNER_FORM_LINK}`);
+      await col.updateOne({ _id: page._id }, { $set: { [`sections.${flagPath}`]: true } });
+      console.log(`ticked ${desc} ("${label.trim()}")`);
     }
-  } else {
-    console.log("partner CTA links not changed (pass --links after the frontend is deployed)");
   }
 
   await mongoose.disconnect();
