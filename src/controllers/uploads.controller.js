@@ -72,6 +72,36 @@ export async function getResumeUploadSignature(_req, res, next) {
 }
 
 /**
+ * Public variant used by the partnership popup to upload its optional
+ * supporting document. Scoped to a dedicated partner-documents folder.
+ */
+export async function getPartnerDocumentUploadSignature(_req, res, next) {
+  try {
+    if (!isCloudinaryConfigured()) {
+      return res.status(503).json({ error: "Uploads are not available right now." });
+    }
+
+    const timestamp = Math.round(Date.now() / 1000);
+    const folder = `${env.cloudinary.uploadFolder}/partner-documents`;
+
+    const signature = cloudinary.utils.api_sign_request(
+      { timestamp, folder },
+      env.cloudinary.apiSecret,
+    );
+
+    res.json({
+      cloudName: env.cloudinary.cloudName,
+      apiKey: env.cloudinary.apiKey,
+      timestamp,
+      folder,
+      signature,
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
+/**
  * Public variant used by the Contact form to upload attachments (images or
  * supporting documents) directly to Cloudinary. Scoped to a dedicated
  * contact-attachments folder; the signature only authorizes that folder.

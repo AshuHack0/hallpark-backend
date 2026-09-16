@@ -32,6 +32,11 @@ import {
   updateConsultationStatus,
   deleteConsultation,
 } from "../controllers/proposals.controller.js";
+import {
+  listPartnerRequests,
+  updatePartnerRequestStatus,
+  deletePartnerRequest,
+} from "../controllers/partnerRequests.controller.js";
 import { authRequired } from "../middleware/auth.js";
 
 const router = Router();
@@ -64,5 +69,9 @@ router.delete("/proposals/:id", deleteProposal);
 router.get("/consultations", listConsultations);
 router.patch("/consultations/:id/status", updateConsultationStatus);
 router.delete("/consultations/:id", deleteConsultation);
+
+router.get("/partner-requests", listPartnerRequests);
+router.patch("/partner-requests/:id/status", updatePartnerRequestStatus);
+router.delete("/partner-requests/:id", deletePartnerRequest);
 
 export default router;

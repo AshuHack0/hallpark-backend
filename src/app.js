@@ -11,6 +11,7 @@ import quotesRoutes from "./routes/quotes.routes.js";
 import jobApplicationsRoutes from "./routes/jobApplications.routes.js";
 import contactRoutes from "./routes/contact.routes.js";
 import proposalsRoutes from "./routes/proposals.routes.js";
+import partnerRequestsRoutes from "./routes/partnerRequests.routes.js";
 import adminRoutes from "./routes/admin.routes.js";
 
 export function createApp() {
@@ -42,6 +43,7 @@ export function createApp() {
   app.use("/api/job-applications", jobApplicationsRoutes);
   app.use("/api/contact", contactRoutes);
   app.use("/api/business", proposalsRoutes);
+  app.use("/api/partner-requests", partnerRequestsRoutes);
   app.use("/api/admin", adminRoutes);
 
   app.use(notFoundHandler);
