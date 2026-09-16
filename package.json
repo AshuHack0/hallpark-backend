@@ -14,6 +14,7 @@
     "seed:solution-details": "node src/seed/solution-details.force.js",
     "seed:business": "node src/seed/business.force.js",
     "seed:legal": "node src/seed/legal.force.js",
+    "seed:partner-form": "node src/seed/partner-form.force.js",
     "lint": "eslint src"
   },
   "engines": {
