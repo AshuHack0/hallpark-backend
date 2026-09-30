@@ -15,7 +15,9 @@
     "seed:business": "node src/seed/business.force.js",
     "seed:legal": "node src/seed/legal.force.js",
     "seed:partner-form": "node src/seed/partner-form.force.js",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "seed:parking-locations": "node src/seed/parking-locations.force.js",
+    "seed:parking-locations-links": "node src/seed/parking-locations-links.force.js"
   },
   "engines": {
     "node": ">=20"
