@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { notifySubmission } from "../services/mailer.js";
 import { JobApplication } from "../models/JobApplication.js";
 
 // Optional string fields may arrive as "" when left blank — coerce to undefined
@@ -28,6 +29,8 @@ export async function createJobApplication(req, res, next) {
   try {
     const data = jobApplicationSchema.parse(req.body);
     const application = await JobApplication.create(data);
+    // Forward to the team inbox; never blocks the response.
+    void notifySubmission("job application", application);
     res.status(201).json({ ok: true, application });
   } catch (err) {
     if (err instanceof z.ZodError) {

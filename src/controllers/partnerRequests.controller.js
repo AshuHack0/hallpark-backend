@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { notifySubmission } from "../services/mailer.js";
 import { PartnerRequest } from "../models/PartnerRequest.js";
 
 const optionalStr = z
@@ -7,6 +8,12 @@ const optionalStr = z
   .or(z.literal(""))
   .transform((v) => (v === "" ? undefined : v));
 
+const documentSchema = z.object({
+  url: z.string().trim().url(),
+  name: optionalStr,
+  type: optionalStr,
+});
+
 const partnerRequestSchema = z.object({
   fullName: z.string().trim().min(1).max(120),
   companyName: z.string().trim().min(1).max(160),
@@ -14,13 +21,10 @@ const partnerRequestSchema = z.object({
   // Digits, spaces and a leading + only — no letters.
   phone: z.string().trim().min(7).max(25).regex(/^\+?[\d\s\-()]+$/),
   message: z.string().trim().min(1).max(3000),
-  document: z
-    .object({
-      url: z.string().trim().url(),
-      name: optionalStr,
-      type: optionalStr,
-    })
-    .optional(),
+  // Up to 5 supporting documents, each already uploaded to Cloudinary.
+  documents: z.array(documentSchema).max(5).optional().default([]),
+  // Legacy single `document` from older clients — folded into `documents`.
+  document: documentSchema.optional(),
   source: optionalStr,
 });
 
@@ -28,8 +32,11 @@ const STATUSES = ["new", "read", "contacted", "closed"];
 
 export async function createPartnerRequest(req, res, next) {
   try {
-    const data = partnerRequestSchema.parse(req.body);
+    const { document, ...data } = partnerRequestSchema.parse(req.body);
+    if (document && data.documents.length < 5) data.documents = [...data.documents, document];
     const partnerRequest = await PartnerRequest.create(data);
+    // Forward to the team inbox; never blocks the response.
+    void notifySubmission("partnership request", partnerRequest);
     res.status(201).json({ ok: true, partnerRequest });
   } catch (err) {
     if (err instanceof z.ZodError) {

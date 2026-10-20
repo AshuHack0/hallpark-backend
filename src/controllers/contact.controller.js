@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { notifySubmission } from "../services/mailer.js";
 import { Contact } from "../models/Contact.js";
 
 const optionalStr = z
@@ -31,6 +32,8 @@ export async function createContact(req, res, next) {
   try {
     const data = contactSchema.parse(req.body);
     const contact = await Contact.create(data);
+    // Forward to the team inbox; never blocks the response.
+    void notifySubmission("contact inquiry", contact);
     res.status(201).json({ ok: true, contact });
   } catch (err) {
     if (err instanceof z.ZodError) {

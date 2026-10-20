@@ -10,6 +10,18 @@ const partnerRequestSchema = new mongoose.Schema(
     email: { type: String, required: true, trim: true },
     phone: { type: String, required: true, trim: true },
     message: { type: String, required: true, trim: true },
+    // Up to 5 supporting documents (uploaded to Cloudinary from the popup).
+    documents: {
+      type: [
+        {
+          url: { type: String, trim: true },
+          name: { type: String, trim: true },
+          type: { type: String, trim: true },
+        },
+      ],
+      default: [],
+    },
+    // Legacy single-document field kept so older records still read.
     document: {
       url: { type: String, trim: true },
       name: { type: String, trim: true },

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { notifySubmission } from "../services/mailer.js";
 import { Quote } from "../models/Quote.js";
 import { JobApplication } from "../models/JobApplication.js";
 import { Contact } from "../models/Contact.js";
@@ -37,6 +38,8 @@ export async function createQuote(req, res, next) {
   try {
     const data = quoteSchema.parse(req.body);
     const quote = await Quote.create(data);
+    // Forward to the team inbox; never blocks the response.
+    void notifySubmission("quote request", quote);
     res.status(201).json({ ok: true, quote });
   } catch (err) {
     if (err instanceof z.ZodError) {

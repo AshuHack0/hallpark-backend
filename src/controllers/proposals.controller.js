@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { notifySubmission } from "../services/mailer.js";
 import { Proposal } from "../models/Proposal.js";
 import { Consultation } from "../models/Consultation.js";
 
@@ -32,6 +33,8 @@ export async function createProposal(req, res, next) {
   try {
     const data = proposalSchema.parse(req.body);
     const proposal = await Proposal.create(data);
+    // Forward to the team inbox; never blocks the response.
+    void notifySubmission("proposal request", proposal);
     res.status(201).json({ ok: true, proposal });
   } catch (err) {
     if (err instanceof z.ZodError) {
@@ -92,6 +95,8 @@ export async function createConsultation(req, res, next) {
   try {
     const data = consultationSchema.parse(req.body);
     const consultation = await Consultation.create(data);
+    // Forward to the team inbox; never blocks the response.
+    void notifySubmission("consultation request", consultation);
     res.status(201).json({ ok: true, consultation });
   } catch (err) {
     if (err instanceof z.ZodError) {
