@@ -39,7 +39,7 @@ API: **http://localhost:8087**
 | GET | `/api/admin/pages` | JWT — all pages |
 | PUT | `/api/admin/pages/:slug` | JWT — update sections JSON |
 
-Pages are seeded on startup: home, about, services, solutions, contact, careers, faqs, how-it-works, app, business, blog.
+Page content lives in the database and is edited through the admin panel. A new environment needs a copy of the existing database, since the server no longer creates pages on startup.
 
 **Home page** uses `sections.hero.slides[]`. Other pages use `sections.hero`.
 

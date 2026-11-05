@@ -7,18 +7,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "seed:faqs": "node src/seed/faqs.force.js",
-    "seed:pages": "node src/seed/pages.force.js",
-    "seed:services": "node src/seed/services.force.js",
-    "seed:solutions": "node src/seed/solutions.force.js",
-    "seed:solution-details": "node src/seed/solution-details.force.js",
-    "seed:business": "node src/seed/business.force.js",
-    "seed:legal": "node src/seed/legal.force.js",
-    "seed:partner-form": "node src/seed/partner-form.force.js",
-    "lint": "eslint src",
-    "seed:parking-locations": "node src/seed/parking-locations.force.js",
-    "seed:parking-locations-links": "node src/seed/parking-locations-links.force.js",
-    "seed:parking-locations-demo": "node src/seed/parking-locations-demo.force.js"
+    "lint": "eslint src"
   },
   "engines": {
     "node": ">=20"
