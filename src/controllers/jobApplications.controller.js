@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { optionalPhoneSchema } from "../validation/phone.js";
 import { notifySubmission } from "../services/mailer.js";
 import { JobApplication } from "../models/JobApplication.js";
 
@@ -13,7 +14,7 @@ const optionalStr = z
 const jobApplicationSchema = z.object({
   fullName: z.string().trim().min(1),
   email: z.string().trim().email(),
-  phone: optionalStr,
+  phone: optionalPhoneSchema,
   jobTitle: z.string().trim().min(1),
   department: optionalStr,
   location: optionalStr,

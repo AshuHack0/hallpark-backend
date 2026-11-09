@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { phoneSchema } from "../validation/phone.js";
 import { notifySubmission } from "../services/mailer.js";
 import { PartnerRequest } from "../models/PartnerRequest.js";
 
@@ -18,13 +19,16 @@ const partnerRequestSchema = z.object({
   fullName: z.string().trim().min(1).max(120),
   companyName: z.string().trim().min(1).max(160),
   email: z.string().trim().email(),
-  // Digits, spaces and a leading + only — no letters.
-  phone: z.string().trim().min(7).max(25).regex(/^\+?[\d\s\-()]+$/),
+  // Shared rule: 7–15 digits, optional leading + (src/validation/phone.js).
+  phone: phoneSchema,
   message: z.string().trim().min(1).max(3000),
   // Up to 5 supporting documents, each already uploaded to Cloudinary.
   documents: z.array(documentSchema).max(5).optional().default([]),
   // Legacy single `document` from older clients — folded into `documents`.
   document: documentSchema.optional(),
+  // "parking" | "service" — required by the current popup; optional here so
+  // older clients still submit.
+  partnerType: z.enum(["parking", "service"]).optional(),
   source: optionalStr,
 });
 

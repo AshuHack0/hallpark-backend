@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { phoneSchema } from "../validation/phone.js";
 import { notifySubmission } from "../services/mailer.js";
 import { Proposal } from "../models/Proposal.js";
 import { Consultation } from "../models/Consultation.js";
@@ -19,7 +20,7 @@ const attachmentSchema = z.object({
 const proposalSchema = z.object({
   fullName: z.string().trim().min(1),
   email: z.string().trim().email(),
-  phone: z.string().trim().min(1),
+  phone: phoneSchema,
   company: optionalStr,
   solutions: z.array(z.string().trim().min(1)).max(50).optional().default([]),
   message: optionalStr,
@@ -81,7 +82,7 @@ export async function deleteProposal(req, res, next) {
 const consultationSchema = z.object({
   fullName: z.string().trim().min(1),
   email: z.string().trim().email(),
-  phone: z.string().trim().min(1),
+  phone: phoneSchema,
   company: optionalStr,
   topics: z.array(z.string().trim().min(1)).max(50).optional().default([]),
   preferredTime: optionalStr,

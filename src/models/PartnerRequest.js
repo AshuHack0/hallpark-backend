@@ -27,6 +27,10 @@ const partnerRequestSchema = new mongoose.Schema(
       name: { type: String, trim: true },
       type: { type: String, trim: true },
     },
+    // Which kind of partnership the visitor chose in the popup:
+    // "parking" (Become a Parking Partner) or "service" (Become a Service
+    // Partner). Empty on requests submitted before the field existed.
+    partnerType: { type: String, enum: ["parking", "service", ""], default: "" },
     source: { type: String, trim: true, default: "website" },
     status: { type: String, enum: ["new", "read", "contacted", "closed"], default: "new" },
   },

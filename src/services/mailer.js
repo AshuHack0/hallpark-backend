@@ -74,6 +74,7 @@ const LABELS = {
   solutions: "Solutions of interest",
   topics: "Topics",
   preferredTime: "Preferred time",
+  partnerType: "Partner type",
   source: "Submitted from",
 };
 

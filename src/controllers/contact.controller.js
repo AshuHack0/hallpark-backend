@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { phoneSchema } from "../validation/phone.js";
 import { notifySubmission } from "../services/mailer.js";
 import { Contact } from "../models/Contact.js";
 
@@ -17,7 +18,7 @@ const attachmentSchema = z.object({
 const contactSchema = z.object({
   fullName: z.string().trim().min(1),
   email:    z.string().trim().email(),
-  phone:    z.string().trim().min(1),
+  phone:    phoneSchema,
   company:  optionalStr,
   subject:  optionalStr,
   message:  z.string().trim().min(1),
