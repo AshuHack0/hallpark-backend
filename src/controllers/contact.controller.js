@@ -29,6 +29,16 @@ const contactSchema = z.object({
 
 const VALID_STATUSES = ["new", "read", "replied", "closed"];
 
+// Plain-language message per field, so the website can show it under the
+// right input instead of a technical "invalid payload" error.
+const FIELD_MESSAGES = {
+  fullName: "Please enter your full name.",
+  email: "Please enter a valid email address (e.g. name@example.com).",
+  phone: "Please enter a valid UAE mobile number: 9 digits after +971 starting with 50, 52, 54, 55, 56 or 58.",
+  message: "Please enter your message.",
+  attachments: "One of the attachments couldn't be accepted. Please remove it and attach it again (up to 5 files).",
+};
+
 export async function createContact(req, res, next) {
   try {
     const data = contactSchema.parse(req.body);
@@ -38,7 +48,13 @@ export async function createContact(req, res, next) {
     res.status(201).json({ ok: true, contact });
   } catch (err) {
     if (err instanceof z.ZodError) {
-      return res.status(400).json({ error: "Invalid contact payload", details: err.flatten() });
+      const fields = {};
+      for (const issue of err.issues) {
+        const key = String(issue.path?.[0] ?? "");
+        if (key && !fields[key]) fields[key] = FIELD_MESSAGES[key] || "Please check this field.";
+      }
+      console.warn("[contact] rejected submission:", JSON.stringify(err.flatten().fieldErrors));
+      return res.status(400).json({ error: "Please check the highlighted fields and try again.", fields });
     }
     next(err);
   }

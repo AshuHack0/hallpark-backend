@@ -20,7 +20,8 @@ const jobApplicationSchema = z.object({
   location: optionalStr,
   message: optionalStr,
   linkedIn: optionalStr,
-  resumeUrl: optionalStr,
+  // A CV is required on both careers forms (per-job Apply + Join Our Team).
+  resumeUrl: z.string().trim().url(),
   birthDate: optionalStr,
   hearAbout: optionalStr,
   source: optionalStr,
